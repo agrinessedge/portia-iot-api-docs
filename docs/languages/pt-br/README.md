@@ -7,9 +7,9 @@ Bem-vindo à documentação do *Read the Docs Template's* !
 Introdução 
 -----------
 
-###Portia Package
+### Portia Package
 
-####Dimension 
+#### Dimension 
 
     “package”:{
           "header": {
@@ -28,11 +28,11 @@ Introdução
           }
      }
 
-###Config 
+### Config 
 
-####Dimension v 0.1
+#### Dimension v 0.1
 
-#####Códigos de Dimensões 
+##### Códigos de Dimensões 
 
 
 |**Código**|**Rótulo/Símbolo**       |**Descrição Resumida**                              |**Categoria**     |
@@ -53,7 +53,7 @@ Introdução
 |13        |--                       |--                                                  |--                |
 |14        |numeroCiclos             |Quantidade de vezes que um dispositivo foi ligado   |Consumo           |
 
-#####Códigos de Unidades de Medida 
+##### Códigos de Unidades de Medida 
 
 
 |**Código**|**Rótulo/Símbolo**       |**Descrição Resumida**                                      |**Categoria**                    |
@@ -68,7 +68,8 @@ Introdução
 |7         |L/min                    |Litros por minuto, medida de volume (capacidade) por tempo  |Sistema Internacional de Unidades|
 
 
-####Códigos de Coisas v_0.1
+#### Códigos de Coisas v_0.1
+
 
 |**Código**|**Rótulo/Símbolo**        |**Descrição Resumida**                                      |**Categoria**            |
 |:--------:|:------------------------:|:----------------------------------------------------------:|:-----------------------:|
