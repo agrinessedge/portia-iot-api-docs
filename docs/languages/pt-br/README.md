@@ -31,7 +31,7 @@ Portia Read the Docs Template's
  
 > Ainda não documentado. 
 
-##   1.2. Dimension v 0.1
+##   1.2. Dimension (v_0.1)
 
 ###    1.2.1. Códigos de Dimensões 
 
