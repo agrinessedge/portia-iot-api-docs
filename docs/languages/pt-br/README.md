@@ -1,7 +1,7 @@
 Portia Read the Docs Template's
 ================================
 
-> Bem-vindo à documentação do *Read the Docs Template's* !
+> Bem-vindo à documentação do *Read the Docs Template* !
 
 
 # 1. Introdução 
@@ -28,6 +28,8 @@ Portia Read the Docs Template's
      }
 
 ###    1.1.2. Config 
+ 
+> Ainda não documentado. 
 
 ##   1.2. Dimension v 0.1
 
