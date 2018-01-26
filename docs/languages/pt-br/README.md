@@ -77,6 +77,6 @@ Portia Read the Docs Template's
 |0         |'Coisa' sem especificação |--                                                          |--                       |
 |1         |AirTU                     |Sensor de temperatura e umidade do ar                       |Passivo                  |
 |2         |AirGases                  |Sensor de detecção de gases nocivos                         |Passivo                  |
-|3         |Hydro                     |Tratamento de dados de temperatura e fluxo da água          |Ativo                    |
-|4         |LoadCell                  |Amplificador de célula de carga                             |Complexo ativo           | 
+|3         |Hydro                     |Tratamento de dados de temperatura e fluxo da água          |Complexo ativo           |
+|4         |LoadCell                  |Amplificador de célula de carga                             |Ativo                    | 
 |5         |Cycle                     |Tratamento de dados de acionamento elétrico                 |Complexo ativo           |
