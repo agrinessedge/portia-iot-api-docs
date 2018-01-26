@@ -61,7 +61,7 @@ Introdução
 |0         |unidades                 |Medida sem unidade específica                               |--                               |
 |1         |ºC                       |Grau Celsius, medida de temperatura                         |Sistema Internacional de Unidades|
 |2         |%                        |Porcentagem, medida de razão com base 100                   |--                               |
-|3         |ppm                      |Parte por milhão, medida de concentração com base milhão    |--                               |
+|3         |ppm                      |Parte por milhão, medida de concentração com base 1000000   |--                               |
 |4         |L                        |Litro, medida  de volume                                    |Sistema Internacional de Unidades| 
 |5         |g                        |Grama, medida de massa                                      |Sistema Internacional de Unidades|
 |6         |s                        |Segundo, medida de tempo                                    |Sistema Internacional de Unidades|
