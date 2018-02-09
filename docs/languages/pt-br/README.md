@@ -75,8 +75,8 @@ Portia Read the Docs Template's
 |**Código**|**Rótulo/Símbolo**        |**Descrição Resumida**                                      |**Categoria**            |
 |:--------:|:------------------------:|:----------------------------------------------------------:|:-----------------------:|
 |0         |'Coisa' sem especificação |--                                                          |--                       |
-|1         |AirTU                     |Sensor de temperatura e umidade do ar                       |Passivo                  |
-|2         |AirGases                  |Sensor de detecção de gases nocivos                         |Passivo                  |
-|3         |Hydro                     |Tratamento de dados de temperatura e fluxo da água          |Complexo ativo           |
-|4         |LoadCell                  |Amplificador de célula de carga                             |Ativo                    | 
-|5         |Cycle                     |Tratamento de dados de acionamento elétrico                 |Complexo ativo           |
+|1         |SondaTU1                  |Sensor de temperatura e umidade do ar                       |Passivo                  |
+|2         |SondaAirQ1                |Sensor de detecção de gases nocivos                         |Passivo                  |
+|3         |HubHydro1                 |Tratamento de dados de temperatura e fluxo da água          |Complexo ativo           |
+|4         |SondaLoadCell1            |Amplificador de célula de carga                             |Ativo                    | 
+|5         |HubCycleCounter1          |Tratamento de dados de acionamento elétrico                 |Complexo ativo           |
