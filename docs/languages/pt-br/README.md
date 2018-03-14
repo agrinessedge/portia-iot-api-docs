@@ -80,3 +80,4 @@ Portia Read the Docs Template's
 |3         |HubHydro1                 |Tratamento de dados de temperatura e fluxo da água          |Complexo ativo           |
 |4         |SondaLoadCell1            |Amplificador de célula de carga                             |Ativo                    | 
 |5         |HubCycleCounter1          |Tratamento de dados de acionamento elétrico                 |Complexo ativo           |
+|6         |VirtualHubSmaai1          |Sonda Virtual que faz a extração de dados de Ismaais        |Complexo ativo           |
