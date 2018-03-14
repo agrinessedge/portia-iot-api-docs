@@ -75,9 +75,15 @@ Portia Read the Docs Template's
 |**Código**|**Rótulo/Símbolo**        |**Descrição Resumida**                                      |**Categoria**            |
 |:--------:|:------------------------:|:----------------------------------------------------------:|:-----------------------:|
 |0         |'Coisa' sem especificação |--                                                          |--                       |
-|1         |SondaTU1                  |Sensor de temperatura e umidade do ar                       |Passivo                  |
-|2         |SondaAirQ1                |Sensor de detecção de gases nocivos                         |Passivo                  |
+|1         |SondaTU1                  |Sensor de temperatura e umidade do ar DHT22                 |Passivo                  |
+|2         |SondaAirQ1                |Sensor de detecção de gases nocivos MQ135                   |Passivo                  |
 |3         |HubHydro1                 |Tratamento de dados de temperatura e fluxo da água          |Complexo ativo           |
 |4         |SondaLoadCell1            |Amplificador de célula de carga                             |Ativo                    | 
 |5         |HubCycleCounter1          |Tratamento de dados de acionamento elétrico                 |Complexo ativo           |
 |6         |VirtualHubSmaai1          |Sonda Virtual que faz a extração de dados de Ismaais        |Complexo ativo           |
+|7         |SondaHydroEDN15-100       |Hidrometro Elster DN15-v100 3/4                             |Passivo            |
+|8         |SondaHydroQMS             |Hidrometro Chinese                                          |Passivo            |
+|9         |SondaHydroTempV1          |Sensor de temperatura da água DS18B20                       |Passivo            |
+
+
+
