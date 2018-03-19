@@ -1,8 +1,8 @@
 ## Portia API 
 
-This repository contains details about the [Portia-IoT Project](https://portia.supe.solutions). 
+This repository contains details about the [Portia-IoT Project](https://portia.agrinessedge.com). 
 The documentation itself and the implementation examples aim at allowing you to get up and running with our REST API. 
-Further details regarding *Portia Package* can be found in our [wiki](http://wiki.supe.solutions)
+Further details regarding *Portia Package* can be found in our [wiki](https://wiki.agrinessedge.com)
 
 ### Documentation
 
