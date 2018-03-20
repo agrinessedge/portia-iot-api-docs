@@ -2,7 +2,7 @@
 
 This repository contains details about the [Portia-IoT Project](https://portia.agrinessedge.com). 
 The documentation itself and the implementation examples aim at allowing you to get up and running with our REST API. 
-Further details regarding *Portia Package* can be found in our [wiki](https://wiki.agrinessedge.com)
+Further details regarding *Portia Package* can be found in our [Portia Package Docs](https://github.com/agrinessedge/portia-iot-api-docs/tree/master/docs/languages/pt-br)
 
 ### Documentation
 
