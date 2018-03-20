@@ -1,1 +1,5 @@
-
+site_name: MkLorum
+pages:
+    - Home: iaandex.md
+    - About: aaabout.md
+theme: readthedoc
