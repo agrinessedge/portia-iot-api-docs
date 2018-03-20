@@ -8,7 +8,7 @@ Further details regarding *Portia Package* can be found in our [wiki](https://wi
 
 The documentation of the REST interface is available in: 
 
-* [English](https://github.com/supesolutions/portia-iot/blob/master/docs/languages/en/index.md) 
+* [English](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/docs/languages/en/index.md) 
 
 * Portuguese[pt-br] // To Do
 
@@ -16,13 +16,13 @@ The documentation of the REST interface is available in:
 
 You may also find useful to see some examples of how to consume the API using multiple languages:
 
-* [JavaScript](https://github.com/supesolutions/portia-iot/blob/master/examples/JavaScript.ipynb)
+* [JavaScript](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/examples/JavaScript.ipynb)
 
-* [PHP](https://github.com/supesolutions/portia-iot/blob/master/examples/PHP.ipynb)
+* [PHP](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/examples/PHP.ipynb)
 
-* [R](https://github.com/supesolutions/portia-iot/blob/master/examples/R.ipynb)
+* [R](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/examples/R.ipynb)
 
-* [Python](https://github.com/supesolutions/portia-iot/blob/master/examples/Python.ipynb)
+* [Python](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/examples/Python.ipynb)
 
-* [PHP + MySQL](https://github.com/supesolutions/portia-iot/blob/master/examples/PHP+MariaDB.ipynb)
+* [PHP + MySQL](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/examples/PHP+MariaDB.ipynb)
 
