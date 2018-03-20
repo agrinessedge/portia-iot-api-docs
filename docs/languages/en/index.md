@@ -219,6 +219,7 @@ The Portia-IoT API documentation (v1)
     * **Return:** `[{"server_timestamp":1508271656566,"package_local_timestamp":1508271655,"package_type_code":1,"package_username":"agrosensor","package_device_hash":"Bk4TsimTbj8vt3hww","dimension_port_id":2,"dimension_sensor_id":1,"dimension_code":1,"dimension_value":23.2,"dimension_value_string":null,"dimension_unity_code":1,"dimension_thing_code":1,"dimension_thing_local_id":-1}, {"server_timestamp":1508271656566,"package_local_timestamp":1508271655,"package_type_code":1,"package_username":"agrosensor","package_device_hash":"Bk4TsimTbj8vt3hww","dimension_port_id":2,"dimension_sensor_id":1,"dimension_code":1,"dimension_value":23.2,"dimension_value_string":null,"dimension_unity_code":1,"dimension_thing_code":1,"dimension_thing_local_id":-1}]`
 -->
 
+<!--
 ### Get devices
 
 * **URL:** ht&#8203;tps://api.portia.agrinessedge.com/v1/devices/all
@@ -239,6 +240,8 @@ The Portia-IoT API documentation (v1)
   * **Code:** `401 Unauthorized`
 
     * **Troubleshooting:** `Error on token authentication`
+-->
+
 <!--
 * **Sample Call:**
 
