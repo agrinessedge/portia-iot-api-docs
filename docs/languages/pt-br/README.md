@@ -51,8 +51,12 @@ Portia Read the Docs Template's
 |10        |pesoPontual              |Peso da espécie sendo monitorada pontual            |Condição Animal   |
 |11        |pesoMedio                |Peso médio da espécie sendo monitorada              |Condição Animal   |
 |12        |estadoDispositivo        |Estado de um dispositivo                            |Equipamento       |
-|13        |--                       |--                                                  |--                |
+|13        |concentracaoco2          |Concentração de CO2                                 |Ambiente                |
 |14        |numeroCiclos             |Quantidade de vezes que um dispositivo foi ligado   |Consumo           |
+|15        |uptime                   |Tempo de uptime do sistema                          |Equipamento       |
+|16        |rssi                     |Received signal strength indicator                  |Equipamento       |
+|17        |freememory               |Memória Livre                                       |Equipamento       |
+|18        |usedmemory               |Memória Utilizada                                   |Equipamento       |
 
 ###    1.2.2. Códigos de Unidades de Medida 
 
@@ -67,6 +71,7 @@ Portia Read the Docs Template's
 |5         |g                        |Grama, medida de massa                                      |Sistema Internacional de Unidades|
 |6         |s                        |Segundo, medida de tempo                                    |Sistema Internacional de Unidades|
 |7         |L/min                    |Litros por minuto, medida de volume (capacidade) por tempo  |Sistema Internacional de Unidades|
+|8         |dBm                      |Potência absoluta mediante relação logaritimica. Nível de potência em decibéis  | |
 
 
 ###    1.2.3. Códigos de Coisas 
