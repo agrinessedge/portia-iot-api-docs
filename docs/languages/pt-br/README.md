@@ -6,7 +6,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 **portia:portia.agrinessedge.com/ontology/v1/**
 
 
-# 1. Introdução 
+# 1. Portia 
 
 ##  1.1. Portia Package (portia:package)
 
@@ -31,13 +31,13 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |**Código**|**Rótulo**               |**Objetivo**                                        |
 |:--------:|:-----------------------:|:--------------------------------------------------:|
 |1         |dimension                |Descrever os fenômenos observados.                  |
-|2         |config                   |Parametrizção de dispositivos (profiles)            |
+|2         |config                   |Parametrização de dispositivos (profiles)            |
 |3         |rpc                      |                                                    |
 |4         |event                    |                                                    |
 
-##  1.2. Definições compartilhadas entre pacotes
+##  1.1.3 Definições compartilhadas entre pacotes
 
-### 1.2.1. Códigos de Unidades de Medida 
+### 1.1.3.1. Códigos de Unidades de Medida 
 
 
 |**Código**|**Rótulo/Símbolo**       |**Descrição Resumida**                                      |**Categoria**                    |
@@ -53,7 +53,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |8         |dBm                      |Potência absoluta mediante relação logaritimica. Nível de potência em decibéis  | |
 
 
-### 1.2.2. Códigos de Coisas/Dispositivos
+### 1.1.3.1. Códigos de Coisas/Dispositivos
 
 
 |**Cód.**|**Rótulo/Símbolo**  |**Sensor**                        |**Descrição Resumida**                                      |**Categoria**            |
