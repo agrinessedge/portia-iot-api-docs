@@ -1,7 +1,6 @@
-Portia Read the Docs Template's
+Portia-IoT 
 ================================
 
-> Bem-vindo à documentação do *Read the Docs Template* !
 
 
 # 1. Introdução 
@@ -12,18 +11,18 @@ Portia Read the Docs Template's
 
     “package”:{
           "header": {
-               "package_code":   "integer",
+               "code":           "integer",
                "username":       "String[16]",
                "device_hash":    "String[8]",
                "port_id":        "integer",
                "sensor_id":      "integer"
           },
           "body":{
-               "dimension_code": "integer",
-               "value":          "float",
-               "unity_code":     "float",
-               "thing_code":     "integer",               
-               "timestamp":      "timestamp"
+               "dimension_code":           "integer",
+               "dimension_value":          "float",
+               "dimension_unity_code":     "float",
+               "dimension_thing_code":     "integer",               
+               "dimension_timestamp":      "timestamp"
           }
      }
 
@@ -31,9 +30,9 @@ Portia Read the Docs Template's
  
 > Ainda não documentado. 
 
-##   1.2. Dimension (v_0.1)
+#   2. Dimension (v_0.1)
 
-###    1.2.1. Códigos de Dimensões 
+##    2.1. Códigos de Dimensões 
 
 
 |**Código**|**Rótulo/Símbolo**       |**Descrição Resumida**                              |**Categoria**     |
@@ -51,14 +50,16 @@ Portia Read the Docs Template's
 |10        |pesoPontual              |Peso da espécie sendo monitorada pontual            |Condição Animal   |
 |11        |pesoMedio                |Peso médio da espécie sendo monitorada              |Condição Animal   |
 |12        |estadoDispositivo        |Estado de um dispositivo                            |Equipamento       |
-|13        |concentracaoco2          |Concentração de CO2                                 |Ambiente                |
+|13        |concentracaoco2          |Concentração de CO2                                 |Ambiente          |
 |14        |numeroCiclos             |Quantidade de vezes que um dispositivo foi ligado   |Consumo           |
 |15        |uptime                   |Tempo de uptime do sistema                          |Equipamento       |
 |16        |rssi                     |Received signal strength indicator                  |Equipamento       |
 |17        |freememory               |Memória Livre                                       |Equipamento       |
 |18        |usedmemory               |Memória Utilizada                                   |Equipamento       |
 
-###    1.2.2. Códigos de Unidades de Medida 
+
+
+##    2.2. Códigos de Unidades de Medida 
 
 
 |**Código**|**Rótulo/Símbolo**       |**Descrição Resumida**                                      |**Categoria**                    |
@@ -74,7 +75,7 @@ Portia Read the Docs Template's
 |8         |dBm                      |Potência absoluta mediante relação logaritimica. Nível de potência em decibéis  | |
 
 
-###    1.2.3. Códigos de Coisas 
+##    2.3. Códigos de Coisas 
 
 
 |**Cód.**|**Rótulo/Símbolo**  |**Sensor**                        |**Descrição Resumida**                                      |**Categoria**            |
