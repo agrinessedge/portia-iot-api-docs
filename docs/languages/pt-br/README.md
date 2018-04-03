@@ -50,6 +50,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |9         |B                        |Byte, medida computacional                                  |--                               |
 |10        |deviation                |Desvio em relação a algum valor base                        |--                               |
 |11        |JSONObject               |Objeto com composição de valores                            |--                               |
+|12        |ms                       |Milissegundo, medida de tempo                               |Sistema Internacional de Unidades|
 
 ### 1.1.3.1. Códigos de Coisas/Dispositivos
 
