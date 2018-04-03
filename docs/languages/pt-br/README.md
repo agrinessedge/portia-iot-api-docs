@@ -119,10 +119,8 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |20        |tamanhoLog               |Tamanho do log de sincronização                     |Equipamento       |
 |21        |tamanhoBuffer            |Tamanho do buffer local                             |Equipamento       |
 |22        |uptimeInternet           |Tempo de uptime associado a conexão com a internet  |Equipamento       |
-|23        |timezoneGmt              |Zona de tempo em GMT                                |Equipamento       |
-|24        |tempoLocal               |Timestamp atual                                     |Equipamento       |
-|25        |numeroProcessos          |Número de processos                                 |Equipamento       |
-|26        |perfil                   |Perfil com descrição do equipamento                 |Equipamento       |
+|23        |tempoLocal               |Timestamp atual                                     |Equipamento       |
+|24        |perfil                   |Perfil com descrição do equipamento                 |Equipamento       |
 
 ##    1.3. Config  (portia:config)
  
