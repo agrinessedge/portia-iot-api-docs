@@ -38,19 +38,21 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 
 |**Código**|**Rótulo/Símbolo**       |**Descrição Resumida**                                      |**Categoria**                    |
 |:--------:|:-----------------------:|:----------------------------------------------------------:|:-------------------------------:|
-|0         |unidades                 |Medida sem unidade específica                               |--                               |
-|1         |ºC                       |Grau Celsius, medida de temperatura                         |Sistema Internacional de Unidades|
-|2         |%                        |Porcentagem, medida de razão com base 100                   |--                               |
-|3         |ppm                      |Parte por milhão, medida de concentração com base 1.000.000 |--                               |
-|4         |L                        |Litro, medida de volume                                     |Sistema Internacional de Unidades| 
-|5         |g                        |Grama, medida de massa                                      |Sistema Internacional de Unidades|
-|6         |s                        |Segundo, medida de tempo                                    |Sistema Internacional de Unidades|
-|7         |L/min                    |Litros por minuto, medida de volume (capacidade) por tempo  |Sistema Internacional de Unidades|
-|8         |dBm                      |Potência absoluta mediante relação logaritimica. Nível de potência em decibéis |--            |
-|9         |B                        |Byte, medida computacional                                  |--                               |
-|10        |deviation                |Desvio em relação a algum valor base                        |--                               |
-|11        |JSONObject               |Objeto com composição de valores                            |--                               |
-|12        |ms                       |Milissegundo, medida de tempo                               |Sistema Internacional de Unidades|
+|0         |unidades                 |Medida sem unidade específica                               |--                              |
+|1         |ºC                       |Grau Celsius, medida de temperatura                         |Sistema Internacional de Unidades       |
+|2         |%                        |Porcentagem, medida de razão com base 100                   |--                              |
+|3         |ppm                      |Parte por milhão, medida de concentração com base 1.000.000 |--                              |
+|4         |L                        |Litro, medida de volume                                     |Sistema Internacional de Unidades       |
+|5         |g                        |Grama, medida de massa                                      |Sistema Internacional de Unidades       |
+|6         |s                        |Segundo, medida de tempo                                    |Sistema Internacional de Unidades       |
+|7         |L/min                    |Litros por minuto, medida de volume (capacidade) por tempo  |Sistema Internacional de Unidades       |
+|8         |dBm                      |Potência absoluta mediante relação logaritimica. Nível de potência em decibéis |--                              |
+|9         |B                        |Byte, medida computacional                                  |--                              |
+|10        |deviation                |Desvio em relação a algum valor base                        |--                              |
+|11        |JSONObject               |Objeto com composição de valores                            |--                              |
+|12        |ms                       |Milissegundo, medida de tempo                               |Sistema Internacional de Unidades       |
+|13        |V                        |Tensão elétrica, diferença de potencial elétrico            |Sistema Internacional de Unidades       |
+|14        |Pa                       |Unidade padrão de pressão e tensão                          |Sistema Internacional de Unidades       |
 
 ### 1.1.3.1. Códigos de Coisas/Dispositivos
 
@@ -122,6 +124,15 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |22        |uptimeInternet           |Tempo de uptime associado a conexão com a internet  |Equipamento       |
 |23        |tempoLocal               |Timestamp atual                                     |Equipamento       |
 |24        |perfil                   |Perfil com descrição do equipamento                 |Equipamento       |
+|25        |bateria                  |Tensão elétrica de alimentação para baterias        |Equipamento       |
+|26        |alarme                   |Descrição de alarme ou problema ocorrido            |Equipamento       |
+|27        |estadoDimmer             |Estado de um dimmer                                 |Equipamento       |
+|28        |estadoGrupoExaustores    |Estado de um grupo de exaustores                    |Equipamento       |
+|29        |estadoNebulizador        |Estado de um nebulizador                            |Equipamento       |
+|30        |estadoAquecedor          |Estado de um aquecedor                              |Equipamento       |
+|31        |ventilacaoMinima         |Indica se o equipamento está operando em vent. mín. |Equipamento       |
+|32        |pressaoPontual           |Pressão pontual                                     |Ambiente          |
+|33        |pressaoMedia             |Pressão média                                       |Ambiente          |
 
 ##    1.3. Config  (portia:config)
  
