@@ -53,6 +53,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |12        |ms                       |Milissegundo, medida de tempo                               |Sistema Internacional de Unidades       |
 |13        |V                        |Tensão elétrica, diferença de potencial elétrico            |Sistema Internacional de Unidades       |
 |14        |Pa                       |Unidade padrão de pressão e tensão                          |Sistema Internacional de Unidades       |
+|15        |Kg                       |Kilograma, medida de massa                                  |Sistema Internacional de Unidades       |
 
 ### 1.1.3.1. Códigos de Coisas/Dispositivos
 
@@ -109,8 +110,8 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |7         |fluxoAcumulado           |Fluxo de água acumulado                             |Consumo           |
 |8         |fluxoPontual             |Fluxo de água pontual                               |Consumo           |
 |9         |temperaturaAguaPontual   |Temperatura da água pontual                         |Ambiente          |
-|10        |pesoPontual              |Peso da espécie sendo monitorada pontual            |Condição Animal   |
-|11        |pesoMedio                |Peso médio da espécie sendo monitorada              |Condição Animal   |
+|10        |pesoPontual              |Peso pontual                                        |Grandeza Física   |
+|11        |pesoMedio                |Peso médio                                          |Grandeza Física   |
 |12        |estadoDispositivo        |Estado de um dispositivo                            |Equipamento       |
 |13        |concentracaoco2          |Concentração de CO2                                 |Ambiente          |
 |14        |numeroCiclos             |Quantidade de vezes que um dispositivo foi ligado   |Consumo           |
@@ -124,15 +125,9 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |22        |uptimeInternet           |Tempo de uptime associado a conexão com a internet  |Equipamento       |
 |23        |tempoLocal               |Timestamp atual                                     |Equipamento       |
 |24        |perfil                   |Perfil com descrição do equipamento                 |Equipamento       |
-|25        |bateria                  |Tensão elétrica de alimentação para baterias        |Equipamento       |
-|26        |alarme                   |Descrição de alarme ou problema ocorrido            |Equipamento       |
-|27        |estadoDimmer             |Estado de um dimmer                                 |Equipamento       |
-|28        |estadoGrupoExaustores    |Estado de um grupo de exaustores                    |Equipamento       |
-|29        |estadoNebulizador        |Estado de um nebulizador                            |Equipamento       |
-|30        |estadoAquecedor          |Estado de um aquecedor                              |Equipamento       |
-|31        |ventilacaoMinima         |Indica se o equipamento está operando em vent. mín. |Equipamento       |
-|32        |pressaoPontual           |Pressão pontual                                     |Ambiente          |
-|33        |pressaoMedia             |Pressão média                                       |Ambiente          |
+|25        |alimentacaoDispositivo   |Tensão elétrica de alimentação                      |Equipamento       |
+|26        |pressaoPontual           |Pressão pontual                                     |Ambiente          |
+|27        |pressaoMedia             |Pressão média                                       |Ambiente          |
 
 ##    1.3. Config  (portia:config)
  
