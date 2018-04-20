@@ -113,7 +113,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |10        |pesoPontual              |Peso pontual                                        |Grandeza Física   |
 |11        |pesoMedio                |Peso médio                                          |Grandeza Física   |
 |12        |estadoDispositivo        |Estado de um dispositivo                            |Equipamento       |
-|13        |concentracaoco2          |Concentração de CO2                                 |Ambiente          |
+|13        |concentracaoCO2Pontual   |Concentração de CO2 pontual                         |Ambiente          |
 |14        |numeroCiclos             |Quantidade de vezes que um dispositivo foi ligado   |Consumo           |
 |15        |uptime                   |Tempo de uptime do sistema                          |Equipamento       |
 |16        |rssi                     |Received signal strength indicator                  |Equipamento       |
