@@ -36,24 +36,24 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 
 ### 1.1.3.1. Códigos de Unidades de Medida 
 
-|**Código**|**Rótulo/Símbolo**       |**Descrição Resumida**                                      |**Categoria**                    |
-|:--------:|:-----------------------:|:----------------------------------------------------------:|:-------------------------------:|
-|0         |unidades                 |Medida sem unidade específica                               |--                              |
-|1         |ºC                       |Grau Celsius, medida de temperatura                         |Sistema Internacional de Unidades       |
-|2         |%                        |Porcentagem, medida de razão com base 100                   |--                              |
-|3         |ppm                      |Parte por milhão, medida de concentração com base 1.000.000 |--                              |
-|4         |L                        |Litro, medida de volume                                     |Sistema Internacional de Unidades       |
-|5         |g                        |Grama, medida de massa                                      |Sistema Internacional de Unidades       |
-|6         |s                        |Segundo, medida de tempo                                    |Sistema Internacional de Unidades       |
-|7         |L/min                    |Litros por minuto, medida de volume (capacidade) por tempo  |Sistema Internacional de Unidades       |
-|8         |dBm                      |Potência absoluta mediante relação logaritimica. Nível de potência em decibéis |--                              |
-|9         |B                        |Byte, medida computacional                                  |--                              |
-|10        |deviation                |Desvio em relação a algum valor base                        |--                              |
-|11        |JSONObject               |Objeto com composição de valores                            |--                              |
-|12        |ms                       |Milissegundo, medida de tempo                               |Sistema Internacional de Unidades       |
-|13        |V                        |Tensão elétrica, diferença de potencial elétrico            |Sistema Internacional de Unidades       |
-|14        |Pa                       |Unidade padrão de pressão e tensão                          |Sistema Internacional de Unidades       |
-|15        |Kg                       |Kilograma, medida de massa                                  |Sistema Internacional de Unidades       |
+|**Código**|**Rótulo/Símbolo**       |**Descrição Resumida**                                      |**Categoria**                     |
+|:--------:|:-----------------------:|:----------------------------------------------------------:|:--------------------------------:|
+|0         |unidades                 |Medida sem unidade específica                               |--                                |
+|1         |ºC                       |Grau Celsius, medida de temperatura                         |Sistema Internacional de Unidades |
+|2         |%                        |Porcentagem, medida de razão com base 100                   |--                                |
+|3         |ppm                      |Parte por milhão, medida de concentração com base 1.000.000 |--                                |
+|4         |L                        |Litro, medida de volume                                     |Sistema Internacional de Unidades |
+|5         |g                        |Grama, medida de massa                                      |Sistema Internacional de Unidades |
+|6         |s                        |Segundo, medida de tempo                                    |Sistema Internacional de Unidades |
+|7         |L/min                    |Litros por minuto, medida de volume (capacidade) por tempo  |Sistema Internacional de Unidades |
+|8         |dBm                      |Potência absoluta mediante relação logaritimica. Nível de potência em decibéis |--             |
+|9         |B                        |Byte, medida computacional                                  |--                                |
+|10        |deviation                |Desvio em relação a algum valor base                        |--                                |
+|11        |JSONObject               |Objeto com composição de valores                            |--                                |
+|12        |ms                       |Milissegundo, medida de tempo                               |Sistema Internacional de Unidades |
+|13        |V                        |Tensão elétrica, diferença de potencial elétrico            |Sistema Internacional de Unidades |
+|14        |Pa                       |Unidade padrão de pressão e tensão                          |Sistema Internacional de Unidades |
+|15        |Kg                       |Kilograma, medida de massa                                  |Sistema Internacional de Unidades |
 
 ### 1.1.3.1. Códigos de Coisas/Dispositivos
 
@@ -71,6 +71,9 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |9       |SondaHydroTemp_v1   |[DS18B20](http://goo.gl/FiYWXh)   |Sensor de temperatura da água DS18B20                       |Passivo                  |
 |10      |FarmBrain_v1        |PortiaVirtualSensors0             |Equipamento responsável por envio de dados                  |Complexo ativo           |
 |11      |HubUniversal_v1     |PortiaVirtualSensors0             |Tratamento de dados genéricos                               |Complexo ativo           |
+|12      |VirtualHubSmaai3    |--                                |Sonda que faz a extração de dados de Smaai3                 |Complexo passivo         |
+|13      |VirtualHubSmaai4    |--                                |Sonda que faz a extração de dados de Smaai4                 |Complexo passivo         |
+|14      |MiniFarmBrain_v1    |--                                |Equipamento responsável por envio de dados                  |Complexo ativo           |
 
 ##   1.2. Portia Package Dimension (portia:dimension)
 
@@ -115,6 +118,36 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |12        |estadoDispositivo        |Estado de um dispositivo                            |Equipamento       |
 |13        |concentracaoCO2Pontual   |Concentração de CO2 pontual                         |Ambiente          |
 |14        |numeroCiclos             |Quantidade de vezes que um dispositivo foi ligado   |Consumo           |
+|15        |uptime                   |Tempo de uptime                                     |Equipamento       |
+|16        |rssi                     |Received signal strength indicator                  |Equipamento       |
+|17        |memoriaLivre             |Memória RAM livre                                   |Equipamento       |
+|18        |discoLivre               |Memória em disco livre                              |Equipamento       |
+|19        |cargaSistema             |Carga associada ao equipamento                      |Equipamento       |
+|20        |tamanhoArquivo           |Tamanho de um arquivo                               |Equipamento       |
+|21        |tempoMomentaneo          |Timestamp relativo a um momento                     |Equipamento       |
+|22        |perfil                   |Perfil com descrição do equipamento                 |Equipamento       |
+|23        |alimentacaoDispositivo   |Tensão elétrica de alimentação                      |Equipamento       |
+|24        |pressaoPontual           |Pressão pontual                                     |Ambiente          |
+|25        |pressaoMedia             |Pressão média                                       |Ambiente          |
+
+<!--
+|**Código**|**Rótulo/Símbolo**       |**Descrição Resumida**                              |**Categoria**     |
+|:--------:|:-----------------------:|:--------------------------------------------------:|:----------------:|
+|0         |--                       |Não Especificada                                    |Não Especificada  |
+|1         |temperaturaPontual       |Temperatura pontual                                 |Ambiente          |
+|2         |temperaturaMedia         |Temperatura média                                   |Ambiente          |
+|3         |umidadePontual           |Umidade pontual                                     |Ambiente          |
+|4         |umidadeMedia             |Umidade média                                       |Ambiente          |
+|5         |concentracaoPontual      |Concentração de gases nocivos pontual               |Ambiente          |
+|6         |concentracaoMedia        |Concentração de gases nocivos média                 |Ambiente          |
+|7         |fluxoAcumulado           |Fluxo de água acumulado                             |Consumo           |
+|8         |fluxoPontual             |Fluxo de água pontual                               |Consumo           |
+|9         |temperaturaAguaPontual   |Temperatura da água pontual                         |Ambiente          |
+|10        |pesoPontual              |Peso pontual                                        |Grandeza Física   |
+|11        |pesoMedio                |Peso médio                                          |Grandeza Física   |
+|12        |estadoDispositivo        |Estado de um dispositivo                            |Equipamento       |
+|13        |concentracaoCO2Pontual   |Concentração de CO2 pontual                         |Ambiente          |
+|14        |numeroCiclos             |Quantidade de vezes que um dispositivo foi ligado   |Consumo           |
 |15        |uptime                   |Tempo de uptime do sistema                          |Equipamento       |
 |16        |rssi                     |Received signal strength indicator                  |Equipamento       |
 |17        |memoriaLivre             |Memória RAM livre                                   |Equipamento       |
@@ -128,6 +161,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |25        |alimentacaoDispositivo   |Tensão elétrica de alimentação                      |Equipamento       |
 |26        |pressaoPontual           |Pressão pontual                                     |Ambiente          |
 |27        |pressaoMedia             |Pressão média                                       |Ambiente          |
+-->
 
 ##    1.3. Config  (portia:config)
  
