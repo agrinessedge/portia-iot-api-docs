@@ -36,9 +36,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 The documentation of the REST interface is available in: 
 
-```
 * [English](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/docs/languages/en/index.md) 
-```
 
 * Portuguese[pt-br] // To Do
 
