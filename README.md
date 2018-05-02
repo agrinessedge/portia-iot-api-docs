@@ -10,7 +10,7 @@ These instructions will get you correctly to access all possibilities provide by
 
 ### Prerequisites
 
-Sign up with us and get a passcode so your application can access our API. Please contact us by email: [contact_us at agrinessedge.com] (mailto:contact_us@agrinessedge.com)
+Sign up with us and get a passcode so your application can access our API. Please contact us by email: [contact_us at agrinessedge.com](mailto:contact_us@agrinessedge.com)
 
 
 ### Installing (precisa????)
