@@ -13,75 +13,21 @@ These instructions will get you correctly to access all possibilities provide by
 Sign up with us and get a passcode so your application can access our API. Please contact us by email: [contact_us at agrinessedge.com](mailto:contact_us@agrinessedge.com)
 
 
-### Installing (precisa????)
+### Installing 
 
-A step by step series of examples that tell you have to get a development env running
+Not required. Just use our API (better explained bellow).
 
-Say what the step will be
+## Built With
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+* [Node.js](https://nodejs.org) - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+* [Adonis](https://www.adonisjs.com/) - Writing micro-services or you are a fan of TDD, it all boils down to confidence. AdonisJs simplicity will make you feel confident about your code
 
 
 ## Running the tests
 
-The documentation of the REST interface is available in: 
+The API documentation is available in: 
 
-* [English](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/docs/languages/en/index.md) 
-
-* Portuguese[pt-br] // To Do
-
-
-### Break down into end to end tests
-
-You may also find useful to see some examples of how to consume the API using multiple languages:
-
-* [JavaScript](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/examples/JavaScript.ipynb)
-
-* [PHP](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/examples/PHP.ipynb)
-
-* [R](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/examples/R.ipynb)
-
-* [Python](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/examples/Python.ipynb)
-
-* [PHP + MySQL](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/examples/PHP+MariaDB.ipynb)
-
-
-
-### And coding style tests (?????????????? - BLA)
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-
-## Deployment (??????????????)
-
-Add additional notes about how to deploy this on a live system
-
-
-## Built With (????? Completar)
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-
-## Contributing (temos???)
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
+* [Swagger](https://app.swaggerhub.com/apis/lxastre/portia/2.0-oas3)
 
 ## Versioning
 
@@ -90,17 +36,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-See also the list of [contributors](https://github.com/agrinessedge/portia-iot-api-docs/contributors) who participated in this project. 
-
-
-## License (???????????????)
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-
-## Acknowledgments (Precisa??)
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-
+See also the list of [contributors](https://github.com/agrinessedge/portia-iot-api-docs/contributors) who participated in this project.
