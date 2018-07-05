@@ -57,32 +57,36 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 
 ### 1.1.3.1. Códigos de Coisas/Dispositivos
 
-|**Cód.**|**Rótulo/Símbolo**  |**Sensor**                           |**Descrição Resumida**                                      |**Categoria**            |
-|:------:|:------------------:|:-----------------------------------:|:----------------------------------------------------------:|:-----------------------:|
-|0       |Sem especificação   |--                                   |--                                                          |--                       |
-|1       |SondaTU_v1          |[DHT22](https://goo.gl/RQ5Saz)       |Sensor de temperatura e umidade do ar DHT22                 |Passivo                  |
-|2       |SondaAirQ_v1        |[MQ135](https://goo.gl/nPMY3j)       |Sensor de detecção de gases nocivos MQ135                   |Passivo                  |
-|3       |HubHydro_v1         |PortiaVirtualSensors0                |Tratamento de dados de temperatura e fluxo da água          |Complexo ativo           |
-|4       |SondaLoadCell_v1    |[HX711](http://goo.gl/DLHKmD)        |Amplificador de célula de carga HX711                       |Ativo                    | 
-|5       |HubCycleCounter_v1  |--                                   |Tratamento de dados de acionamento elétrico                 |Complexo ativo           |
-|6       |VirtualHubSmaai5    |--                                   |Sonda Virtual que faz a extração de dados de Smaai5         |Complexo ativo           |
-|7       |SondaHydroEDN15-100 |[DN15-v100](http://goo.gl/mEFakc)    |Hidrometro Elster DN15-v100 3/4                             |Passivo                  |
-|8       |SondaHydroQMS_v1    |[YF-S201](https://goo.gl/qpqKs1)     |Hidrometro paralelo YF-S201                                 |Passivo                  |
-|9       |SondaHydroTemp_v1   |[DS18B20](http://goo.gl/FiYWXh)      |Sensor de temperatura da água DS18B20                       |Passivo                  |
-|10      |FarmBrain_v1        |PortiaVirtualSensors0                |Equipamento responsável por envio de dados                  |Complexo ativo           |
-|11      |HubUniversal_v1     |PortiaVirtualSensors0                |Tratamento de dados genéricos                               |Complexo ativo           |
-|12      |VirtualHubSmaai3    |--                                   |Sonda que faz a extração de dados de Smaai3                 |Complexo passivo         |
-|13      |VirtualHubSmaai4    |--                                   |Sonda que faz a extração de dados de Smaai4                 |Complexo passivo         |
-|14      |MiniFarmBrain_v1    |--                                   |Equipamento responsável por envio de dados                  |Complexo ativo           |
-|15      |SondaSmaaiT         |[Sonda T](https://bit.ly/2JDKwRQ)    |Sensor Smaai de temperatura                                 |Passivo                  |
-|16      |SondaSmaaiTU        |[Sonda TU](https://bit.ly/2JDKwRQ)   |Sensor Smaai de temperatura e umidade do ar                 |Passivo                  |
-|17      |SmaaiExhaustor      |[Exaustor](https://bit.ly/2HONoWq)   |Placa Smaai de relês para exaustores                        |Passivo                  |
-|18      |SmaaiNebulizer      |[Nebulizador](https://bit.ly/2HONoWq)|Placa Smaai de relês para nebulizadores                     |Passivo                  |
-|19      |SmaaiHeater         |[Aquecedor](https://bit.ly/2HONoWq)  |Placa Smaai de relês para aquecedores                       |Passivo                  |
-|20      |SmaaiDimmer         |[Dimmer](https://bit.ly/2yhtLHc)     |Dimmer Smaai                                                |Passivo                  |
-|21      |SondaSmaaiPE        |[Sonda PE](https://bit.ly/2JDKwRQ)   |Sensor Smaai de pressão estática                            |Passivo                  |
-|22      |SondaSmaaiH2O       |[Sonda H2O](https://bit.ly/2JDKwRQ)  |Sensor Smaai de consumo de água                             |Passivo                  |
-|23      |SondaSmaaiCO2       |[Sonda CO2](https://bit.ly/2JDKwRQ)  |Sensor Smaai de concentração de CO2                         |Passivo                  |
+|**Cód.**|**Rótulo/Símbolo**  |**Sensor**                                |**Descrição Resumida**                              |**Categoria**            |
+|:------:|:------------------:|:----------------------------------------:|:--------------------------------------------------:|:-----------------------:|
+|0       |Sem especificação   |--                                        |--                                                  |--                       |
+|1       |SondaTU_v1          |[DHT22](https://goo.gl/RQ5Saz)            |Sensor de temperatura e umidade do ar DHT22         |Passivo                  |
+|2       |SondaAirQ_v1        |[MQ135](https://goo.gl/nPMY3j)            |Sensor de detecção de gases nocivos MQ135           |Passivo                  |
+|3       |HubHydro_v1         |PortiaVirtualSensors0                     |Tratamento de dados de temperatura e fluxo da água  |Complexo ativo           |
+|4       |SondaLoadCell_v1    |[HX711](http://goo.gl/DLHKmD)             |Amplificador de célula de carga HX711               |Ativo                    | 
+|5       |HubCycleCounter_v1  |--                                        |Tratamento de dados de acionamento elétrico         |Complexo ativo           |
+|6       |VirtualHubSmaai5    |--                                        |Sonda Virtual que faz a extração de dados de Smaai5 |Complexo ativo           |
+|7       |SondaHydroEDN15-100 |[DN15-v100](http://goo.gl/mEFakc)         |Hidrometro Elster DN15-v100 3/4                     |Passivo                  |
+|8       |SondaHydroQMS_v1    |[YF-S201](https://goo.gl/qpqKs1)          |Hidrometro paralelo YF-S201                         |Passivo                  |
+|9       |SondaHydroTemp_v1   |[DS18B20](http://goo.gl/FiYWXh)           |Sensor de temperatura da água DS18B20               |Passivo                  |
+|10      |FarmBrain_v1        |PortiaVirtualSensors0                     |Equipamento responsável por envio de dados          |Complexo ativo           |
+|11      |HubUniversal_v1     |PortiaVirtualSensors0                     |Tratamento de dados genéricos                       |Complexo ativo           |
+|12      |VirtualHubSmaai3    |--                                        |Sonda que faz a extração de dados de Smaai3         |Complexo passivo         |
+|13      |VirtualHubSmaai4    |--                                        |Sonda que faz a extração de dados de Smaai4         |Complexo passivo         |
+|14      |MiniFarmBrain_v1    |--                                        |Equipamento responsável por envio de dados          |Complexo ativo           |
+|15      |SondaSmaaiT         |[Sonda T](https://bit.ly/2JDKwRQ)         |Sensor Smaai de temperatura                         |Passivo                  |
+|16      |SondaSmaaiTU        |[Sonda TU](https://bit.ly/2JDKwRQ)        |Sensor Smaai de temperatura e umidade do ar         |Passivo                  |
+|17      |SmaaiExhaustor      |[Exaustor](https://bit.ly/2HONoWq)        |Placa Smaai de relês para exaustores                |Passivo                  |
+|18      |SmaaiNebulizer      |[Nebulizador](https://bit.ly/2HONoWq)     |Placa Smaai de relês para nebulizadores             |Passivo                  |
+|19      |SmaaiHeater         |[Aquecedor](https://bit.ly/2HONoWq)       |Placa Smaai de relês para aquecedores               |Passivo                  |
+|20      |SmaaiDimmer         |[Dimmer](https://bit.ly/2yhtLHc)          |Dimmer Smaai                                        |Passivo                  |
+|21      |SondaSmaaiPE        |[Sonda PE](https://bit.ly/2JDKwRQ)        |Sensor Smaai de pressão estática                    |Passivo                  |
+|22      |SondaSmaaiH2O       |[Sonda H2O](https://bit.ly/2JDKwRQ)       |Sensor Smaai de consumo de água                     |Passivo                  |
+|23      |SondaSmaaiCO2       |[Sonda CO2](https://bit.ly/2JDKwRQ)       |Sensor Smaai de concentração de CO2                 |Passivo                  |
+|24      |SondaSmaaiU         |[Sonda U](https://bit.ly/2JDKwRQ)         |Sensor Smaai de umidade do ar                       |Passivo                  |
+|25      |SmaaiSmartScale     |[SmartScale](https://bit.ly/2I2Ip4I)      |Sensor Smaai para pesagem de aves                   |Passivo                  |
+|26      |SmaaiSiloWeight     |[SiloWeight](https://bit.ly/2M2PMvb)      |Sensor Smaai para pesagem de silos                  |Passivo                  |
+|27      |VirtualHub_V1       |--                                        |Hub Virtual para equipamentos como o Smaai5         |Complexo Ativo                    |
 
 ##   1.2. Portia Package Dimension (portia:dimension)
 
