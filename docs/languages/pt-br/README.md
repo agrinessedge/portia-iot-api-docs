@@ -87,7 +87,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |25      |SmaaiSmartScale     |[SmartScale](https://bit.ly/2I2Ip4I)      |Sensor Smaai para pesagem de aves                   |Passivo                  |
 |26      |SmaaiSiloWeight     |[SiloWeight](https://bit.ly/2M2PMvb)      |Sensor Smaai para pesagem de silos                  |Passivo                  |
 |27      |VirtualHub_V1       |--                                        |Hub Virtual para equipamentos como o Smaai5         |Complexo Ativo                    |
-|27      |VirtualHubAmbientte |--                                        |Sonda que faz a extração de dados de Ambientte      |Complexo Ativo                    |
+|28      |VirtualHubAmbientte |--                                        |Sonda que faz a extração de dados de Ambientte      |Complexo Ativo                    |
 
 
 ##   1.2. Portia Package Dimension (portia:dimension)
