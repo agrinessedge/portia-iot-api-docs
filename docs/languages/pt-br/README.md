@@ -90,7 +90,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |27      |VirtualHub_V1       |--                                        |Hub Virtual para equipamentos como o Smaai5                  |Complexo Ativo     |
 |28      |VirtualHubAmbientte |--                                        |Sonda que faz a extração de dados de Ambientte               |Complexo Ativo     |
 |29      |HubBluetooth_v1     |PortiaVirtualSensors0                     |Tratamento de dados provenientes de comunicação via Bluetooth|Complexo Ativo     |
-|30      |SondaTruTestS2      |[S2 TRU-TEST](https://goo.gl/piukBW)      |Sensor de temperatura e umidade do ar DHT22                  |Complexo Ativo     |
+|30      |SondaTruTestS2      |[S2 TRU-TEST](https://goo.gl/piukBW)      |Balança S2 Tru-Test com comunicação via Bluetooth                  |Complexo Ativo     |
 
 ##   1.2. Portia Package Dimension (portia:dimension)
 
