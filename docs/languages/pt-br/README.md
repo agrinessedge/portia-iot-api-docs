@@ -157,14 +157,30 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |26         |modelo                 |Descrição de versão de ontologia, software e hardware |Equipamento       |
 |27         |diaLote                |Dia corrente do lote                                  |Lote              |
 
-# 3. Especificações
+# 3. Fases
+
+## 3.1. Tipo Consulta
+
+|**Nome**       | **Parâmetros**                                                                              |
+|:-------------:|:-------------------------------------------------------------------------------------------:|
+| time_query    | **de (from)** (_alvo_: time, _operador_: >=); **para (to)** (_alvo_: time, _operador_: <=); |
+| default_query | **limite_inferior (lower_bound)** (_alvo_: value, _operador_: >=); **limite_superior (upper_bound)** (_alvo_: value, _operador_: <=); **número_de_pacotes (number_of_packages)** (_alvo_: number_of_packages, _operador_: >=); |
+
+# 4. Axiomas
+
+|**Nome**       |**Fases**                   |
+|:-------------:|:--------------------------:|
+| time_axiom_v1 | time_query;                |
+| edge_axiom_v1 | time_query; default_query; |
+
+# 5. Especificações
 
 ### Labels:
 * '*': Regra se aplica a qualquer valor
 * '@': Valor padrão para a consulta, cada operação (SELECT, SUMMARY, ...) pode ter seus próprios valores padrões
 * '#': Valor nulo, usa valores passados na consulta caso existam
 
-## 3.1. Default (Padrão)
+## 5.1. Default (Padrão)
 
 |**Axioma**     |**Código de Dimensão**       |**De** |**Para** |**Limite Inferior** |**Limite Superior** |**Número de Pacotes** |
 |:-------------:|:---------------------------:|:-----:|:-------:|:------------------:|:------------------:|:--------------------:|
@@ -184,7 +200,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 | edge_axiom_v1 | 27 (diaLote)                | @     | @       | 1                  | #                  | #                    |
 | edge_axiom_v1 | *                           | @     | @       | #                  | #                  | #                    |
 
-## 3.2. Raw (Crua)
+## 5.2. Raw (Crua)
 
 |**Axioma**     |**Código de Dimensão** |**De** |**Para** |
 |:-------------:|:---------------------:|:-----:|:-------:|

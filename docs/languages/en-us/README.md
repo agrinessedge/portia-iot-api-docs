@@ -122,14 +122,30 @@ Portia API v3.2.1
 |26       |model                 |Description of ontology, software and hardware |Equipment     |
 |27       |lotDay                |Current day of a lot                           |Lot           |
 
-# 3. Specifications
+# 3. Phases
+
+## 3.1. Query Type
+
+|**Name**       | **Parameters**                                                                      |
+|:-------------:|:-----------------------------------------------------------------------------------:|
+| time_query    | **from** (_target_: time, _operator_: >=); **to** (_target_: time, _operator_: <=); |
+| default_query | **lower_bound** (_target_: value, _operator_: >=); **upper_bound** (_target_: value, _operator_: <=); **number_of_packages** (_target_: number_of_packages, _operator_: >=); |
+
+# 4. Axioms
+
+|**Name**       |**Phases**                  |
+|:-------------:|:--------------------------:|
+| time_axiom_v1 | time_query;                |
+| edge_axiom_v1 | time_query; default_query; |
+
+# 5. Specifications
 
 ### Labels:
 * '*': Rule applies to any value
 * '@': Default value for the query, each operation (SELECT, SUMMARY, ...) can have its own default values
 * '#': Null value, uses parameter on the query if there is one
 
-## 3.1. Default
+## 5.1. Default
 
 |**Axiom**      |**Dimension Code**          |**From** |**To** |**Lower Bound** |**Upper Bound** |**Number of Packages** |
 |:-------------:|:--------------------------:|:-------:|:-----:|:--------------:|:--------------:|:---------------------:|
@@ -149,7 +165,7 @@ Portia API v3.2.1
 | edge_axiom_v1 | 27 (lotDay)                | @       | @     | 1              | #              | #                     |
 | edge_axiom_v1 | *                          | @       | @     | #              | #              | #                     |
 
-## 3.2. Raw
+## 5.2. Raw
 
 |**Axiom**      |**Dimension Code** |**From** |**To** |
 |:-------------:|:-----------------:|:-------:|:-----:|
