@@ -92,7 +92,7 @@ Portia API v3.2.1
 ## 2.3. Dimension Codes
 
 |**Code** |**Label / Symbol**    |**Summarized Description**                     |**Category**  |
-|:-------:|:--------------------:|:---------------------------------------------:|:------------:|
+|:-------:|:--------------------:|:----------------------------------------------|:------------:|
 |0        |--                    |Not specified                                  |Not Specified |
 |1        |pointTemperature      |Point temperature                              |Environment   |
 |2        |averageTemperature    |Average temperature                            |Environment   |

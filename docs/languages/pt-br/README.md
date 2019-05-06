@@ -91,7 +91,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 ### 2.2. Códigos de Coisas / Dispositivos
 
 |**Código**|**Rótulo / Símbolo** |**Sensor**                             |**Descrição Resumida**                               |**Categoria**     |
-|:--------:|:-------------------:|:-------------------------------------:|:---------------------------------------------------:|:----------------:|
+|:--------:|:-------------------:|:-------------------------------------:|:----------------------------------------------------|:----------------:|
 |0         |--                   |--                                     |Sem especificação                                    |Sem Especificação |
 |1         |ProbeTU_v1           |[DHT22](https://goo.gl/RQ5Saz)         |Sensor de temperatura e umidade do ar                |Passivo           |
 |2         |ProbeAirQ_v1         |[MQ135](https://goo.gl/nPMY3j)         |Sensor de detecção de gases nocivos                  |Passivo           |
@@ -127,7 +127,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 ## 2.3. Códigos de Dimensões
 
 |**Código** |**Rótulo/Símbolo**     |**Descrição Resumida**                                |**Categoria**     |
-|:---------:|:---------------------:|:----------------------------------------------------:|:----------------:|
+|:---------:|:---------------------:|:-----------------------------------------------------|:----------------:|
 |0          |--                     |Sem especificação                                     |Sem Especificação |
 |1          |temperaturaPontual     |Temperatura pontual                                   |Ambiente          |
 |2          |temperaturaMedia       |Temperatura média                                     |Ambiente          |
