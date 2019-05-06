@@ -122,7 +122,7 @@ Portia API v3.2.1
 |26       |model                 |Description of ontology, software and hardware |Equipment     |
 |27       |lotDay                |Current day of a lot                           |Lot           |
 
-# 3. Especificações
+# 3. Specifications
 
 ### Labels:
 * '*': Rule applies to any value
