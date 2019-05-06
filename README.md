@@ -1,28 +1,20 @@
-## Portia API 
+# Portia API 
 
-This repository contains details about the [Portia-IoT Project](https://portia.agrinessedge.com). 
-The documentation itself and the implementation examples aim at allowing you to get up and running with our REST API. 
-Further details regarding *Portia Package* can be found in our [Portia Package Docs](https://github.com/agrinessedge/portia-iot-api-docs/tree/master/docs/languages/pt-br)
+This repository contains details about the Portia-IoT project by Agriness Edge. The documentation and examples aim at allowing you to get up and running with our REST API.
 
-### Documentation
+## Documentation
 
-The documentation of the REST interface is available in: 
+The documentation of the REST interface is available in the following languages: 
 
-* [English](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/docs/languages/en/index.md) 
+* [English (en-us)](./languages/en-us/README.md) 
+* [Portuguese (pt-br)](./languages/pt-br/README.md)
 
-* Portuguese[pt-br] // To Do
-
-### Examples
+## Examples
 
 You may also find useful to see some examples of how to consume the API using multiple languages:
 
-* [JavaScript](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/examples/JavaScript.ipynb)
-
-* [PHP](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/examples/PHP.ipynb)
-
-* [R](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/examples/R.ipynb)
-
-* [Python](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/examples/Python.ipynb)
-
-* [PHP + MySQL](https://github.com/agrinessedge/portia-iot-api-docs/blob/master/examples/PHP+MariaDB.ipynb)
-
+* [JavaScript](./examples/JavaScript.ipynb)
+* [PHP](./examples/PHP.ipynb)
+* [R](./examples/R.ipynb)
+* [Python](./examples/Python.ipynb)
+* [PHP + MySQL](./PHP+MariaDB.ipynb)
