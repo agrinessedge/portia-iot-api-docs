@@ -6,8 +6,8 @@ This repository contains details about the Portia-IoT project by Agriness Edge. 
 
 The documentation of the REST interface is available in the following languages: 
 
-* [English (en-us)](./languages/en-us/README.md) 
-* [Portuguese (pt-br)](./languages/pt-br/README.md)
+* [English (en-us)](./docs/languages/en-us/README.md) 
+* [Portuguese (pt-br)](./docs/languages/pt-br/README.md)
 
 ## Examples
 
