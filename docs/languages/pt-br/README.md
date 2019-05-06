@@ -99,8 +99,8 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |4         |ProbeLoadCell_v1     |[HX711](http://goo.gl/DLHKmD)          |Amplificador de célula de carga                      |Ativo             | 
 |5         |HubCycleCounter_v1   |--                                     |Hub contador de ciclos da Agriness Edge (depreciado) |Complexo Ativo    |
 |6         |HubSmaai5            |--                                     |Hub Smaai 5 da Inobram                               |Complexo Ativo    |
-|7         |ProbeHydroEDN15-100  |[DN15-v100](http://goo.gl/mEFakc)      |Hidrometro 3/4                                       |Passivo           |
-|8         |ProbeHydroQMS_v1     |[YF-S201](https://goo.gl/qpqKs1)       |Hidrometro paralelo                                  |Passivo           |
+|7         |ProbeHydroEDN15-100  |[DN15-v100](http://goo.gl/mEFakc)      |Hidrômetro 3/4                                       |Passivo           |
+|8         |ProbeHydroQMS_v1     |[YF-S201](https://goo.gl/qpqKs1)       |Hidrômetro paralelo                                  |Passivo           |
 |9         |ProbeHydroTemp_v1    |[DS18B20](http://goo.gl/FiYWXh)        |Sensor de temperatura da água                        |Passivo           |
 |10        |Gateway_v0           |PortiaVirtualSensors0                  |Gateway versão 0 da Agriness Edge                    |Complexo Ativo    |
 |11        |HubUniversal_v1      |PortiaVirtualSensors0                  |Hub Universal da Agriness Edge                       |Complexo Ativo    |
@@ -144,7 +144,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |13         |concentracaoCO2Pontual |Concentração de CO2 pontual                           |Ambiente          |
 |14         |numeroCiclos           |Quantidade de vezes que um dispositivo foi ligado     |Consumo           |
 |15         |uptime                 |Tempo de uptime                                       |Equipamento       |
-|16         |rssi                   |Received signal strength indicator                    |Equipamento       |
+|16         |rssi                   |Indicador de força de sinal recebido                  |Equipamento       |
 |17         |memoriaLivre           |Memória RAM livre                                     |Equipamento       |
 |18         |discoLivre             |Memória em disco livre                                |Equipamento       |
 |19         |cargaSistema           |Carga associada ao equipamento                        |Equipamento       |
@@ -156,3 +156,36 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |25         |pressaoMedia           |Pressão média                                         |Ambiente          |
 |26         |modelo                 |Descrição de versão de ontologia, software e hardware |Equipamento       |
 |27         |diaLote                |Dia corrente do lote                                  |Lote              |
+
+# 3. Especificações
+
+### Labels:
+* '*': Regra se aplica a qualquer valor
+* '@': Valor padrão para a consulta, cada operação (SELECT, SUMMARY, ...) pode ter seus próprios valores padrões
+* '#': Valor nulo, usa valores passados na consulta caso existam
+
+## 3.1. Default (Padrão)
+
+|**Axioma**     |**Código de Dimensão**       |**De** |**Para** |**Limite Inferior** |**Limite Superior** |**Número de Pacotes** |
+|:-------------:|:---------------------------:|:-----:|:-------:|:------------------:|:------------------:|:--------------------:|
+| edge_axiom_v1 | 1 (temperaturaPontual)      | @     | @       | 0                  | 60                 | #                    |
+| edge_axiom_v1 | 3 (umidadePontual)          | @     | @       | 0                  | 100                | #                    |
+| edge_axiom_v1 | 5 (concentracaoPontual)     | @     | @       | 0                  | 4000               | #                    |
+| edge_axiom_v1 | 7 (fluxoAcumulado)          | @     | @       | 0                  | 100000             | #                    |
+| edge_axiom_v1 | 8 (fluxoPontual)            | @     | @       | 0                  | 300                | #                    |
+| edge_axiom_v1 | 12 (estadoDispositivo)      | @     | @       | 0                  | 1                  | #                    |
+| edge_axiom_v1 | 13 (concentracaoCO2Pontual) | @     | @       | 0                  | 4000               | #                    |
+| edge_axiom_v1 | 15 (uptime)                 | @     | @       | 0                  | #                  | #                    |
+| edge_axiom_v1 | 17 (memoriaLivre)           | @     | @       | 0                  | 100                | #                    |
+| edge_axiom_v1 | 18 (discoLivre)             | @     | @       | 0                  | 100                | #                    |
+| edge_axiom_v1 | 19 (cargaSistema)           | @     | @       | 0                  | #                  | #                    |
+| edge_axiom_v1 | 20 (tamanhoArquivo)         | @     | @       | 0                  | #                  | #                    |
+| edge_axiom_v1 | 23 (alimentacaoDispositivo) | @     | @       | 0                  | #                  | #                    |
+| edge_axiom_v1 | 27 (diaLote)                | @     | @       | 1                  | #                  | #                    |
+| edge_axiom_v1 | *                           | @     | @       | #                  | #                  | #                    |
+
+## 3.2. Raw (Crua)
+
+|**Axioma**     |**Código de Dimensão** |**De** |**Para** |
+|:-------------:|:---------------------:|:-----:|:-------:|
+| time_axiom_v1 | *                     | @     | @       |

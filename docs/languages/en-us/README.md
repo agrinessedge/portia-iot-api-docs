@@ -121,3 +121,36 @@ Portia API v3.2.1
 |25       |averagePressure       |Average pressure                               |Environment   |
 |26       |model                 |Description of ontology, software and hardware |Equipment     |
 |27       |lotDay                |Current day of a lot                           |Lot           |
+
+# 3. Especificações
+
+### Labels:
+* '*': Rule applies to any value
+* '@': Default value for the query, each operation (SELECT, SUMMARY, ...) can have its own default values
+* '#': Null value, uses parameter on the query if there is one
+
+## 3.1. Default
+
+|**Axiom**      |**Dimension Code**          |**From** |**To** |**Lower Bound** |**Upper Bound** |**Number of Packages** |
+|:-------------:|:--------------------------:|:-------:|:-----:|:--------------:|:--------------:|:---------------------:|
+| edge_axiom_v1 | 1 (pointTemperature)       | @       | @     | 0              | 60             | #                     |
+| edge_axiom_v1 | 3 (pointUmidity)           | @       | @     | 0              | 100            | #                     |
+| edge_axiom_v1 | 5 (pointConcentration)     | @       | @     | 0              | 4000           | #                     |
+| edge_axiom_v1 | 7 (cumulativeFlow)         | @       | @     | 0              | 100000         | #                     |
+| edge_axiom_v1 | 8 (pointFlow)              | @       | @     | 0              | 300            | #                     |
+| edge_axiom_v1 | 12 (deviceStatus)          | @       | @     | 0              | 1              | #                     |
+| edge_axiom_v1 | 13 (pointCO2Concentration) | @       | @     | 0              | 4000           | #                     |
+| edge_axiom_v1 | 15 (uptime)                | @       | @     | 0              | #              | #                     |
+| edge_axiom_v1 | 17 (freeMemory)            | @       | @     | 0              | 100            | #                     |
+| edge_axiom_v1 | 18 (freeDisk)              | @       | @     | 0              | 100            | #                     |
+| edge_axiom_v1 | 19 (systemLoad)            | @       | @     | 0              | #              | #                     |
+| edge_axiom_v1 | 20 (fileSize)              | @       | @     | 0              | #              | #                     |
+| edge_axiom_v1 | 23 (devicePower)           | @       | @     | 0              | #              | #                     |
+| edge_axiom_v1 | 27 (lotDay)                | @       | @     | 1              | #              | #                     |
+| edge_axiom_v1 | *                          | @       | @     | #              | #              | #                     |
+
+## 3.2. Raw
+
+|**Axiom**      |**Dimension Code** |**From** |**To** |
+|:-------------:|:-----------------:|:-------:|:-----:|
+| time_axiom_v1 | *                 | @       | @     |
