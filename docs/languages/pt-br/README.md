@@ -70,7 +70,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 
 |**Código** |**Rótulo/Símbolo** |**Descrição Resumida**                                      |**Categoria**                     |
 |:---------:|:-----------------:|:-----------------------------------------------------------|:--------------------------------:|
-|0          |unidades           |Medida sem unidade específica                               |--                                |
+|0          |unidades           |Medida sem unidade específica                               |Sem Especificação                 |
 |1          |ºC                 |Grau Celsius, medida de temperatura                         |Sistema Internacional de Unidades |
 |2          |%                  |Porcentagem, medida de razão com base 100                   |--                                |
 |3          |ppm                |Parte por milhão, medida de concentração com base 1.000.000 |--                                |
@@ -78,81 +78,81 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |5          |g                  |Grama, medida de massa                                      |Sistema Internacional de Unidades |
 |6          |s                  |Segundo, medida de tempo                                    |Sistema Internacional de Unidades |
 |7          |L/min              |Litros por minuto, medida de volume (capacidade) por tempo  |Sistema Internacional de Unidades |
-|8          |dBm                |Potência absoluta mediante relação logaritimica. Nível de potência em decibéis |--             |
+|8          |dBm                |Decibel-milliwatts, nível de potência em decibéis           |--                                |
 |9          |B                  |Byte, medida computacional                                  |--                                |
 |10         |desvio             |Desvio em relação a algum valor base                        |--                                |
 |11         |JSONObject         |Objeto com composição de valores                            |--                                |
 |12         |ms                 |Milissegundo, medida de tempo                               |Sistema Internacional de Unidades |
 |13         |V                  |Tensão elétrica, diferença de potencial elétrico            |Sistema Internacional de Unidades |
-|14         |Pa                 |Unidade padrão de pressão e tensão                          |Sistema Internacional de Unidades |
+|14         |Pa                 |Pascal, unidade padrão de pressão e tensão                  |Sistema Internacional de Unidades |
 |15         |kg                 |Kilograma, medida de massa                                  |Sistema Internacional de Unidades |
 |16         |dias               |Dia, medida de tempo                                        |--                                |
 
 ### 2.2. Códigos de Coisas / Dispositivos
 
-|**Cód.**|**Rótulo/Símbolo**  |**Sensor**                                |**Descrição Resumida**                                       |**Categoria**      |
-|:------:|:------------------:|:----------------------------------------:|:-----------------------------------------------------------:|:-----------------:|
-|0       |Sem especificação   |--                                        |--                                                           |--                 |
-|1       |SondaTU_v1          |[DHT22](https://goo.gl/RQ5Saz)            |Sensor de temperatura e umidade do ar DHT22                  |Passivo            |
-|2       |SondaAirQ_v1        |[MQ135](https://goo.gl/nPMY3j)            |Sensor de detecção de gases nocivos MQ135                    |Passivo            |
-|3       |HubHydro_v1         |PortiaVirtualSensors0                     |Tratamento de dados de temperatura e fluxo da água           |Complexo Ativo     |
-|4       |SondaLoadCell_v1    |[HX711](http://goo.gl/DLHKmD)             |Amplificador de célula de carga HX711                        |Ativo              | 
-|5       |HubCycleCounter_v1  |--                                        |Tratamento de dados de acionamento elétrico                  |Complexo Ativo     |
-|6       |VirtualHubSmaai5    |--                                        |Sonda Virtual que faz a extração de dados de Smaai5          |Complexo Ativo     |
-|7       |SondaHydroEDN15-100 |[DN15-v100](http://goo.gl/mEFakc)         |Hidrometro Elster DN15-v100 3/4                              |Passivo            |
-|8       |SondaHydroQMS_v1    |[YF-S201](https://goo.gl/qpqKs1)          |Hidrometro paralelo YF-S201                                  |Passivo            |
-|9       |SondaHydroTemp_v1   |[DS18B20](http://goo.gl/FiYWXh)           |Sensor de temperatura da água DS18B20                        |Passivo            |
-|10      |FarmBrain_v1        |PortiaVirtualSensors0                     |Equipamento responsável por envio de dados                   |Complexo Ativo     |
-|11      |HubUniversal_v1     |PortiaVirtualSensors0                     |Tratamento de dados genéricos                                |Complexo Ativo     |
-|12      |VirtualHubSmaai3    |--                                        |Sonda que faz a extração de dados de Smaai3                  |Complexo Passivo   |
-|13      |VirtualHubSmaai4    |--                                        |Sonda que faz a extração de dados de Smaai4                  |Complexo Passivo   |
-|14      |MiniFarmBrain_v1    |--                                        |Equipamento responsável por envio de dados                   |Complexo Ativo     |
-|15      |SondaSmaaiT         |[Sonda T](https://bit.ly/2JDKwRQ)         |Sensor Smaai de temperatura                                  |Passivo            |
-|16      |SondaSmaaiTU        |[Sonda TU](https://bit.ly/2JDKwRQ)        |Sensor Smaai de temperatura e umidade do ar                  |Passivo            |
-|17      |SmaaiExhaustor      |[Exaustor](https://bit.ly/2HONoWq)        |Placa Smaai de relês para exaustores                         |Passivo            |
-|18      |SmaaiNebulizer      |[Nebulizador](https://bit.ly/2HONoWq)     |Placa Smaai de relês para nebulizadores                      |Passivo            |
-|19      |SmaaiHeater         |[Aquecedor](https://bit.ly/2HONoWq)       |Placa Smaai de relês para aquecedores                        |Passivo            |
-|20      |SmaaiDimmer         |[Dimmer](https://bit.ly/2yhtLHc)          |Dimmer Smaai                                                 |Passivo            |
-|21      |SondaSmaaiPE        |[Sonda PE](https://bit.ly/2JDKwRQ)        |Sensor Smaai de pressão estática                             |Passivo            |
-|22      |SondaSmaaiH2O       |[Sonda H2O](https://bit.ly/2JDKwRQ)       |Sensor Smaai de consumo de água                              |Passivo            |
-|23      |SondaSmaaiCO2       |[Sonda CO2](https://bit.ly/2JDKwRQ)       |Sensor Smaai de concentração de CO2                          |Passivo            |
-|24      |SondaSmaaiU         |[Sonda U](https://bit.ly/2JDKwRQ)         |Sensor Smaai de umidade do ar                                |Passivo            |
-|25      |SmaaiSmartScale     |[SmartScale](https://bit.ly/2I2Ip4I)      |Sensor Smaai para pesagem de aves                            |Passivo            |
-|26      |SmaaiSiloWeight     |[SiloWeight](https://bit.ly/2M2PMvb)      |Sensor Smaai para pesagem de silos                           |Passivo            |
-|27      |VirtualHub_V1       |--                                        |Hub Virtual para equipamentos como o Smaai5                  |Complexo Ativo     |
-|28      |VirtualHubAmbientte |--                                        |Sonda que faz a extração de dados de Ambientte               |Complexo Ativo     |
-|29      |HubBluetooth_v1     |PortiaVirtualSensors0                     |Tratamento de dados provenientes de comunicação via Bluetooth|Complexo Ativo     |
-|30      |SondaTruTestS2      |[S2 TRU-TEST](https://goo.gl/piukBW)      |Balança S2 Tru-Test com comunicação via Bluetooth                  |Complexo Ativo     |
+|**Código**|**Rótulo / Símbolo** |**Sensor**                             |**Descrição Resumida**                               |**Categoria**     |
+|:--------:|:-------------------:|:-------------------------------------:|:---------------------------------------------------:|:----------------:|
+|0         |--                   |--                                     |Sem especificação                                    |Sem Especificação |
+|1         |ProbeTU_v1           |[DHT22](https://goo.gl/RQ5Saz)         |Sensor de temperatura e umidade do ar                |Passivo           |
+|2         |ProbeAirQ_v1         |[MQ135](https://goo.gl/nPMY3j)         |Sensor de detecção de gases nocivos                  |Passivo           |
+|3         |HubHydro_v1          |PortiaVirtualSensors0                  |Hub Hydro da Agriness Edge                           |Complexo Ativo    |
+|4         |ProbeLoadCell_v1     |[HX711](http://goo.gl/DLHKmD)          |Amplificador de célula de carga                      |Ativo             | 
+|5         |HubCycleCounter_v1   |--                                     |Hub contador de ciclos da Agriness Edge (depreciado) |Complexo Ativo    |
+|6         |HubSmaai5            |--                                     |Hub Smaai 5 da Inobram                               |Complexo Ativo    |
+|7         |ProbeHydroEDN15-100  |[DN15-v100](http://goo.gl/mEFakc)      |Hidrometro 3/4                                       |Passivo           |
+|8         |ProbeHydroQMS_v1     |[YF-S201](https://goo.gl/qpqKs1)       |Hidrometro paralelo                                  |Passivo           |
+|9         |ProbeHydroTemp_v1    |[DS18B20](http://goo.gl/FiYWXh)        |Sensor de temperatura da água                        |Passivo           |
+|10        |Gateway_v0           |PortiaVirtualSensors0                  |Gateway versão 0 da Agriness Edge                    |Complexo Ativo    |
+|11        |HubUniversal_v1      |PortiaVirtualSensors0                  |Hub Universal da Agriness Edge                       |Complexo Ativo    |
+|12        |HubSmaai3            |--                                     |Hub Smaai 3 da Inobram                               |Complexo Passivo  |
+|13        |HubSmaai4            |--                                     |Hub Smaai 4 da Inobram                               |Complexo Passivo  |
+|14        |Gateway_v1           |--                                     |Gateway versão 1 da Agriness Edge                    |Complexo Ativo    |
+|15        |ProbeSmaaiT          |[Sonda T](https://bit.ly/2JDKwRQ)      |Sensor de temperatura da Inobram                     |Passivo           |
+|16        |ProbeSmaaiTU         |[Sonda TU](https://bit.ly/2JDKwRQ)     |Sensor de temperatura e umidade do ar da Inobram     |Passivo           |
+|17        |SmaaiExhaustor       |[Exaustor](https://bit.ly/2HONoWq)     |Placa de relês para exaustores da Inobram            |Passivo           |
+|18        |SmaaiNebulizer       |[Nebulizador](https://bit.ly/2HONoWq)  |Placa de relês para nebulizadores da Inobram         |Passivo           |
+|19        |SmaaiHeater          |[Aquecedor](https://bit.ly/2HONoWq)    |Placa de relês para aquecedores da Inobram           |Passivo           |
+|20        |SmaaiDimmer          |[Dimmer](https://bit.ly/2yhtLHc)       |Dimmer da Inobram                                    |Passivo           |
+|21        |ProbeSmaaiPE         |[Sonda PE](https://bit.ly/2JDKwRQ)     |Sensor de pressão estática da Inobram                |Passivo           |
+|22        |ProbeSmaaiH2O        |[Sonda H2O](https://bit.ly/2JDKwRQ)    |Sensor de consumo de água da Inobram                 |Passivo           |
+|23        |ProbeSmaaiCO2        |[Sonda CO2](https://bit.ly/2JDKwRQ)    |Sensor de concentração de CO2 da Inobram             |Passivo           |
+|24        |ProbeSmaaiU          |[Sonda U](https://bit.ly/2JDKwRQ)      |Sensor de umidade do ar da Inobram                   |Passivo           |
+|25        |SmaaiSmartScale      |[SmartScale](https://bit.ly/2I2Ip4I)   |Sensor para pesagem de aves da Inobram               |Passivo           |
+|26        |SmaaiSiloWeight      |[Peso de Silo](https://bit.ly/2M2PMvb) |Sensor para pesagem de silos da Inobram              |Passivo           |
+|27        |VirtualGateway_v0    |--                                     |Gateway Virtual versão 0 da Agriness Edge            |Complexo Ativo    |
+|28        |HubAmbientte         |--                                     |Hub Ambientte da Inobram                             |Complexo Ativo    |
+|29        |HubBluetooth_v1      |PortiaVirtualSensors0                  |Hub Bluetooth da Agriness Edge                       |Complexo Ativo    |
+|30        |ProbeTruTestS2       |[S2 TRU-TEST](https://goo.gl/piukBW)   |Balança S2 Tru-Test com comunicação via bluetooth    |Complexo Ativo    |
 
 ## 2.3. Códigos de Dimensões
 
-|**Código**|**Rótulo/Símbolo**       |**Descrição Resumida**                                |**Categoria**     |
-|:--------:|:-----------------------:|:----------------------------------------------------:|:----------------:|
-|0         |--                       |Não Especificada                                      |Não Especificada  |
-|1         |temperaturaPontual       |Temperatura pontual                                   |Ambiente          |
-|2         |temperaturaMedia         |Temperatura média                                     |Ambiente          |
-|3         |umidadePontual           |Umidade pontual                                       |Ambiente          |
-|4         |umidadeMedia             |Umidade média                                         |Ambiente          |
-|5         |concentracaoPontual      |Concentração de gases nocivos pontual                 |Ambiente          |
-|6         |concentracaoMedia        |Concentração de gases nocivos média                   |Ambiente          |
-|7         |fluxoAcumulado           |Fluxo de água acumulado                               |Consumo           |
-|8         |fluxoPontual             |Fluxo de água pontual                                 |Consumo           |
-|9         |temperaturaAguaPontual   |Temperatura da água pontual                           |Ambiente          |
-|10        |pesoPontual              |Peso pontual                                          |Indivíduo         |
-|11        |pesoMedio                |Peso médio                                            |Grupos Indivíduos |
-|12        |estadoDispositivo        |Estado de um dispositivo                              |Equipamento       |
-|13        |concentracaoCO2Pontual   |Concentração de CO2 pontual                           |Ambiente          |
-|14        |numeroCiclos             |Quantidade de vezes que um dispositivo foi ligado     |Consumo           |
-|15        |uptime                   |Tempo de uptime                                       |Equipamento       |
-|16        |rssi                     |Received signal strength indicator                    |Equipamento       |
-|17        |memoriaLivre             |Memória RAM livre                                     |Equipamento       |
-|18        |discoLivre               |Memória em disco livre                                |Equipamento       |
-|19        |cargaSistema             |Carga associada ao equipamento                        |Equipamento       |
-|20        |tamanhoArquivo           |Tamanho de um arquivo                                 |Equipamento       |
-|21        |tempoMomentaneo          |Timestamp relativo a um momento                       |Equipamento       |
-|22        |perfil                   |Perfil com descrição do equipamento                   |Equipamento       |
-|23        |alimentacaoDispositivo   |Tensão elétrica de alimentação                        |Equipamento       |
-|24        |pressaoPontual           |Pressão pontual                                       |Ambiente          |
-|25        |pressaoMedia             |Pressão média                                         |Ambiente          |
-|26        |modelo                   |Descrição de versão de ontologia, software e hardware |Equipamento       |
-|27        |diaLote                  |Dia corrente do lote                                  |Lote              |
+|**Código** |**Rótulo/Símbolo**     |**Descrição Resumida**                                |**Categoria**     |
+|:---------:|:---------------------:|:----------------------------------------------------:|:----------------:|
+|0          |--                     |Sem especificação                                     |Sem Especificação |
+|1          |temperaturaPontual     |Temperatura pontual                                   |Ambiente          |
+|2          |temperaturaMedia       |Temperatura média                                     |Ambiente          |
+|3          |umidadePontual         |Umidade pontual                                       |Ambiente          |
+|4          |umidadeMedia           |Umidade média                                         |Ambiente          |
+|5          |concentracaoPontual    |Concentração de gases nocivos pontual                 |Ambiente          |
+|6          |concentracaoMedia      |Concentração de gases nocivos média                   |Ambiente          |
+|7          |fluxoAcumulado         |Fluxo de água acumulado                               |Consumo           |
+|8          |fluxoPontual           |Fluxo de água pontual                                 |Consumo           |
+|9          |temperaturaAguaPontual |Temperatura da água pontual                           |Ambiente          |
+|10         |pesoPontual            |Peso pontual                                          |Indivíduo         |
+|11         |pesoMedio              |Peso médio                                            |Grupos Indivíduos |
+|12         |estadoDispositivo      |Estado de um dispositivo                              |Equipamento       |
+|13         |concentracaoCO2Pontual |Concentração de CO2 pontual                           |Ambiente          |
+|14         |numeroCiclos           |Quantidade de vezes que um dispositivo foi ligado     |Consumo           |
+|15         |uptime                 |Tempo de uptime                                       |Equipamento       |
+|16         |rssi                   |Received signal strength indicator                    |Equipamento       |
+|17         |memoriaLivre           |Memória RAM livre                                     |Equipamento       |
+|18         |discoLivre             |Memória em disco livre                                |Equipamento       |
+|19         |cargaSistema           |Carga associada ao equipamento                        |Equipamento       |
+|20         |tamanhoArquivo         |Tamanho de um arquivo                                 |Equipamento       |
+|21         |tempoMomentaneo        |Timestamp relativo a um momento                       |Equipamento       |
+|22         |perfil                 |Perfil com descrição do equipamento                   |Equipamento       |
+|23         |alimentacaoDispositivo |Tensão elétrica de alimentação                        |Equipamento       |
+|24         |pressaoPontual         |Pressão pontual                                       |Ambiente          |
+|25         |pressaoMedia           |Pressão média                                         |Ambiente          |
+|26         |modelo                 |Descrição de versão de ontologia, software e hardware |Equipamento       |
+|27         |diaLote                |Dia corrente do lote                                  |Lote              |

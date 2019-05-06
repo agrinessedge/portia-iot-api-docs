@@ -35,7 +35,7 @@ Portia API v3.2.1
 
 |**Code** |**Label / Symbol** |**Summarized Description**                                  |**Category**                  |
 |:-------:|:-----------------:|:-----------------------------------------------------------|:----------------------------:|
-|0        |units              |Measurement without a specific unit                         |--                            |
+|0        |units              |Measurement without a specific unit                         |Not Specified                 |
 |1        |ºC                 |Degree Celsius, temperature measurement                     |International System of Units |
 |2        |%                  |Percentage, ratio expressed as a fraction of 100            |--                            |
 |3        |ppm                |Parts-per-million, measurement of concentration             |--                            |
@@ -57,7 +57,7 @@ Portia API v3.2.1
 
 |**Code** |**Label / Symbol**  |**Sensor**                           |**Summarized Description**                              |**Category**    |
 |:-------:|:------------------:|:-----------------------------------:|:-------------------------------------------------------|:--------------:|
-|0        |Sem especificação   |--                                   |--                                                      |--              |
+|0        |--                  |--                                   |Not specified                                           |Not Specified   |
 |1        |ProbeTU_v1          |[DHT22](https://goo.gl/RQ5Saz)       |Temperature and air umidity probe                       |Passive         |
 |2        |ProbeAirQ_v1        |[MQ135](https://goo.gl/nPMY3j)       |Harmful gases detection probe                           |Passive         |
 |3        |HubHydro_v1         |PortiaVirtualSensors0                |Agriness Edge's Hydro hub                               |Active Complex  |
@@ -85,9 +85,9 @@ Portia API v3.2.1
 |25       |SmaaiSmartScale     |[SmartScale](https://bit.ly/2I2Ip4I) |Inobram's hen weight scale probe                        |Passive         |
 |26       |SmaaiSiloWeight     |[SiloWeight](https://bit.ly/2M2PMvb) |Inobram's silo weight scale probe                       |Passive         |
 |27       |VirtualGateway_v0   |--                                   |Agriness Edge's Virtual Gateway version 0               |Active Complex  |
-|28       |VirtualHubAmbientte |--                                   |Inobram's Ambientte hub                                 |Active Complex  |
+|28       |HubAmbientte        |--                                   |Inobram's Ambientte hub                                 |Active Complex  |
 |29       |HubBluetooth_v1     |PortiaVirtualSensors0                |Agriness Edge's Bluetooth hub                           |Active Complex  |
-|30       |SondaTruTestS2      |[S2 TRU-TEST](https://goo.gl/piukBW) |S2 Tru-Test's weight scale with bluetooth communication |Active Complex  |
+|30       |ProbeTruTestS2      |[S2 TRU-TEST](https://goo.gl/piukBW) |S2 Tru-Test's weight scale with bluetooth communication |Active Complex  |
 
 ## 2.3. Dimension Codes
 
