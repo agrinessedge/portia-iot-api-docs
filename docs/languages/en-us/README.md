@@ -33,25 +33,26 @@ Portia API v3.2.1
 
 ### 2.1. Measurement Unit Codes
 
-|**Code** |**Label / Symbol** |**Summarized Description**                                  |**Category**                  |
-|:-------:|:-----------------:|:-----------------------------------------------------------|:----------------------------:|
-|0        |units              |Measurement without a specific unit                         |Not Specified                 |
-|1        |ºC                 |Degree Celsius, temperature measurement                     |International System of Units |
-|2        |%                  |Percentage, ratio expressed as a fraction of 100            |--                            |
-|3        |ppm                |Parts-per-million, measurement of concentration             |--                            |
-|4        |L                  |Liter, volume measurement                                   |International System of Units |
-|5        |g                  |Gram, mass measurement                                      |International System of Units |
-|6        |s                  |Second, time measurement                                    |International System of Units |
-|7        |L/min              |Liters per minute, measurement of volume per time           |International System of Units |
-|8        |dBm                |Decibel-milliwatts, measurement of power ratio by milliwatt |--                            |
-|9        |B                  |Byte, computational measurement                             |--                            |
-|10       |deviation          |Deviation of a base value                                   |--                            |
-|11       |JSONObject         |Object that is a composition of values                      |--                            |
-|12       |ms                 |Milliseconds, time measurement                              |International System of Units |
-|13       |V                  |Voltage, measurement of an electric potential difference    |International System of Units |
-|14       |Pa                 |Pascal, measurement of pressure and stress                  |International System of Units |
-|15       |kg                 |Kilogram, measurement of mass                               |International System of Units |
-|16       |days               |Day, time measurement                                       |--                            |
+|**Code** |**Label / Symbol** |**Summarized Description**                                    |**Category**                  |
+|:-------:|:-----------------:|:-------------------------------------------------------------|:----------------------------:|
+|0        |units              |Measurement without a specific unit                           |Not Specified                 |
+|1        |ºC                 |Degree Celsius, temperature measurement                       |International System of Units |
+|2        |%                  |Percentage, ratio expressed as a fraction of 100              |--                            |
+|3        |ppm                |Parts-per-million, measurement of concentration               |--                            |
+|4        |L                  |Liter, volume measurement                                     |International System of Units |
+|5        |g                  |Gram, mass measurement                                        |International System of Units |
+|6        |s                  |Second, time measurement                                      |International System of Units |
+|7        |L/min              |Liters per minute, measurement of volume per time             |International System of Units |
+|8        |dBm                |Decibel-milliwatts, measurement of power ratio by milliwatt   |--                            |
+|9        |B                  |Byte, computational measurement                               |--                            |
+|10       |deviation          |Deviation of a base value                                     |--                            |
+|11       |JSONObject         |Object that is a composition of values                        |--                            |
+|12       |ms                 |Milliseconds, time measurement                                |International System of Units |
+|13       |V                  |Voltage, measurement of an electric potential difference      |International System of Units |
+|14       |Pa                 |Pascal, measurement of pressure and stress                    |International System of Units |
+|15       |kg                 |Kilogram, measurement of mass                                 |International System of Units |
+|16       |days               |Day, time measurement                                         |--                            |
+|17       |mV                 |Millivoltage, measurement of an electric potential difference |--                            |
 
 ### 2.2. Thing / Device Codes
 
@@ -91,36 +92,37 @@ Portia API v3.2.1
 
 ## 2.3. Dimension Codes
 
-|**Code** |**Label / Symbol**    |**Summarized Description**                     |**Category**  |
-|:-------:|:--------------------:|:----------------------------------------------|:------------:|
-|0        |--                    |Not specified                                  |Not Specified |
-|1        |pointTemperature      |Point temperature                              |Environment   |
-|2        |averageTemperature    |Average temperature                            |Environment   |
-|3        |pointUmidity          |Point umidity                                  |Environment   |
-|4        |averageUmidity        |Average umidity                                |Environment   |
-|5        |pointConcentration    |Point harmful gases concentration              |Environment   |
-|6        |averageConcentration  |Average harmful gases concentration            |Environment   |
-|7        |cumulativeFlow        |Cumulative flow                                |Consumption   |
-|8        |pointFlow             |Point flow                                     |Consumption   |
-|9        |pointWaterTemperature |Point water temperature (deprecated)           |Environment   |
-|10       |pointWeight           |Point weight                                   |Individual    |
-|11       |averageWeight         |Average weight                                 |Group         |
-|12       |deviceStatus          |Status of a device                             |Equipment     |
-|13       |pointCO2Concentration |Point CO2 gas concentration                    |Environment   |
-|14       |numberCycles          |Number of times that a device was turned on    |Consumption   |
-|15       |uptime                |Device uptime                                  |Equipment     |
-|16       |rssi                  |Received signal strength indicator             |Equipment     |
-|17       |freeMemory            |Free RAM memory                                |Equipment     |
-|18       |freeDisk              |Free disk memory                               |Equipment     |
-|19       |systemLoad            |CPU load of a device                           |Equipment     |
-|20       |fileSize              |File size                                      |Equipment     |
-|21       |momentaryTime         |A specific moment timestamp                    |Equipment     |
-|22       |profile               |Profile of a device                            |Equipment     |
-|23       |devicePower           |Voltage powering a device                      |Equipment     |
-|24       |pointPressure         |Point pressure                                 |Environment   |
-|25       |averagePressure       |Average pressure                               |Environment   |
-|26       |model                 |Description of ontology, software and hardware |Equipment     |
-|27       |lotDay                |Current day of a lot                           |Lot           |
+|**Code** |**Label / Symbol**    |**Summarized Description**                      |**Category**  |
+|:-------:|:--------------------:|:-----------------------------------------------|:------------:|
+|0        |--                    |Not specified                                   |Not Specified |
+|1        |pointTemperature      |Point temperature                               |Environment   |
+|2        |averageTemperature    |Average temperature                             |Environment   |
+|3        |pointUmidity          |Point umidity                                   |Environment   |
+|4        |averageUmidity        |Average umidity                                 |Environment   |
+|5        |pointConcentration    |Point harmful gases concentration               |Environment   |
+|6        |averageConcentration  |Average harmful gases concentration             |Environment   |
+|7        |cumulativeFlow        |Cumulative flow                                 |Consumption   |
+|8        |pointFlow             |Point flow                                      |Consumption   |
+|9        |pointWaterTemperature |Point water temperature (deprecated)            |Environment   |
+|10       |pointWeight           |Point weight                                    |Individual    |
+|11       |averageWeight         |Average weight                                  |Group         |
+|12       |status                |Status of something                             |Equipment     |
+|13       |pointCO2Concentration |Point CO2 gas concentration                     |Environment   |
+|14       |numberCycles          |Number of times that an equipment was turned on |Consumption   |
+|15       |uptime                |Device uptime                                   |Equipment     |
+|16       |rssi                  |Received signal strength indicator              |Equipment     |
+|17       |freeMemory            |Free RAM memory                                 |Equipment     |
+|18       |freeStorage           |Free storage                                    |Equipment     |
+|19       |systemLoad            |CPU load of a device                            |Equipment     |
+|20       |fileSize              |File size                                       |Equipment     |
+|21       |time                  |A specific moment in time                       |Equipment     |
+|22       |profile               |Profile of a device (deprecated)                |Equipment     |
+|23       |pointVoltage          |Voltage powering a device                       |Equipment     |
+|24       |pointPressure         |Point pressure                                  |Environment   |
+|25       |averagePressure       |Average pressure                                |Environment   |
+|26       |model                 |Description of ontology, software and hardware  |Equipment     |
+|27       |lotDay                |Current day of a lot                            |Lot           |
+|28       |averageVoltage        |Average voltage powering a device               |Equipment     |
 
 # 3. Phases
 
@@ -154,14 +156,14 @@ Portia API v3.2.1
 | edge_axiom_v1 | 5 (pointConcentration)     | @       | @     | 0              | 4000           | #                     |
 | edge_axiom_v1 | 7 (cumulativeFlow)         | @       | @     | 0              | 100000         | #                     |
 | edge_axiom_v1 | 8 (pointFlow)              | @       | @     | 0              | 300            | #                     |
-| edge_axiom_v1 | 12 (deviceStatus)          | @       | @     | 0              | 1              | #                     |
+| edge_axiom_v1 | 12 (status)                | @       | @     | 0              | 1              | #                     |
 | edge_axiom_v1 | 13 (pointCO2Concentration) | @       | @     | 0              | 4000           | #                     |
 | edge_axiom_v1 | 15 (uptime)                | @       | @     | 0              | #              | #                     |
 | edge_axiom_v1 | 17 (freeMemory)            | @       | @     | 0              | 100            | #                     |
-| edge_axiom_v1 | 18 (freeDisk)              | @       | @     | 0              | 100            | #                     |
+| edge_axiom_v1 | 18 (freeStorage)           | @       | @     | 0              | 100            | #                     |
 | edge_axiom_v1 | 19 (systemLoad)            | @       | @     | 0              | #              | #                     |
 | edge_axiom_v1 | 20 (fileSize)              | @       | @     | 0              | #              | #                     |
-| edge_axiom_v1 | 23 (devicePower)           | @       | @     | 0              | #              | #                     |
+| edge_axiom_v1 | 23 (pointVoltage)          | @       | @     | 0              | #              | #                     |
 | edge_axiom_v1 | 27 (lotDay)                | @       | @     | 1              | #              | #                     |
 | edge_axiom_v1 | *                          | @       | @     | #              | #              | #                     |
 

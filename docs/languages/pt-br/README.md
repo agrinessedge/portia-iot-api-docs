@@ -87,6 +87,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |14         |Pa                 |Pascal, unidade padrão de pressão e tensão                  |Sistema Internacional de Unidades |
 |15         |kg                 |Kilograma, medida de massa                                  |Sistema Internacional de Unidades |
 |16         |dias               |Dia, medida de tempo                                        |--                                |
+|17         |mV                 |Milivolts, medida de diferença de potencial elétrico        |--                                |
 
 ### 2.2. Códigos de Coisas / Dispositivos
 
@@ -140,22 +141,23 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |9          |temperaturaAguaPontual |Temperatura da água pontual                           |Ambiente          |
 |10         |pesoPontual            |Peso pontual                                          |Indivíduo         |
 |11         |pesoMedio              |Peso médio                                            |Grupos Indivíduos |
-|12         |estadoDispositivo      |Estado de um dispositivo                              |Equipamento       |
+|12         |estado                 |Estado de algo                                        |Equipamento       |
 |13         |concentracaoCO2Pontual |Concentração de CO2 pontual                           |Ambiente          |
 |14         |numeroCiclos           |Quantidade de vezes que um dispositivo foi ligado     |Consumo           |
 |15         |uptime                 |Tempo de uptime                                       |Equipamento       |
 |16         |rssi                   |Indicador de força de sinal recebido                  |Equipamento       |
 |17         |memoriaLivre           |Memória RAM livre                                     |Equipamento       |
-|18         |discoLivre             |Memória em disco livre                                |Equipamento       |
+|18         |armazenamentoLivre     |Memória em disco livre                                |Equipamento       |
 |19         |cargaSistema           |Carga associada ao equipamento                        |Equipamento       |
 |20         |tamanhoArquivo         |Tamanho de um arquivo                                 |Equipamento       |
-|21         |tempoMomentaneo        |Timestamp relativo a um momento                       |Equipamento       |
+|21         |tempo                  |Um momento específico no tempo                        |Equipamento       |
 |22         |perfil                 |Perfil com descrição do equipamento                   |Equipamento       |
-|23         |alimentacaoDispositivo |Tensão elétrica de alimentação                        |Equipamento       |
+|23         |tensaoEletricaPontual  |Tensão elétrica pontual de alimentação                |Equipamento       |
 |24         |pressaoPontual         |Pressão pontual                                       |Ambiente          |
 |25         |pressaoMedia           |Pressão média                                         |Ambiente          |
 |26         |modelo                 |Descrição de versão de ontologia, software e hardware |Equipamento       |
 |27         |diaLote                |Dia corrente do lote                                  |Lote              |
+|28         |tensaoEletricaMedia    |Tensão elétrica média de alimentação                  |Equipamento       |
 
 # 3. Fases
 
@@ -189,14 +191,14 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 | edge_axiom_v1 | 5 (concentracaoPontual)     | @     | @       | 0                  | 4000               | #                    |
 | edge_axiom_v1 | 7 (fluxoAcumulado)          | @     | @       | 0                  | 100000             | #                    |
 | edge_axiom_v1 | 8 (fluxoPontual)            | @     | @       | 0                  | 300                | #                    |
-| edge_axiom_v1 | 12 (estadoDispositivo)      | @     | @       | 0                  | 1                  | #                    |
+| edge_axiom_v1 | 12 (estado)                 | @     | @       | 0                  | 1                  | #                    |
 | edge_axiom_v1 | 13 (concentracaoCO2Pontual) | @     | @       | 0                  | 4000               | #                    |
 | edge_axiom_v1 | 15 (uptime)                 | @     | @       | 0                  | #                  | #                    |
 | edge_axiom_v1 | 17 (memoriaLivre)           | @     | @       | 0                  | 100                | #                    |
-| edge_axiom_v1 | 18 (discoLivre)             | @     | @       | 0                  | 100                | #                    |
+| edge_axiom_v1 | 18 (armazenamentoLivre)     | @     | @       | 0                  | 100                | #                    |
 | edge_axiom_v1 | 19 (cargaSistema)           | @     | @       | 0                  | #                  | #                    |
 | edge_axiom_v1 | 20 (tamanhoArquivo)         | @     | @       | 0                  | #                  | #                    |
-| edge_axiom_v1 | 23 (alimentacaoDispositivo) | @     | @       | 0                  | #                  | #                    |
+| edge_axiom_v1 | 23 (tensaoEletricaPontual)  | @     | @       | 0                  | #                  | #                    |
 | edge_axiom_v1 | 27 (diaLote)                | @     | @       | 1                  | #                  | #                    |
 | edge_axiom_v1 | *                           | @     | @       | #                  | #                  | #                    |
 
