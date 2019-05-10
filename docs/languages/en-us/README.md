@@ -154,8 +154,8 @@ Portia API v3.2.1
 | edge_axiom_v1 | 1 (pointTemperature)       | @       | @     | 0              | 60             | #                     |
 | edge_axiom_v1 | 3 (pointUmidity)           | @       | @     | 0              | 100            | #                     |
 | edge_axiom_v1 | 5 (pointConcentration)     | @       | @     | 0              | 4000           | #                     |
-| edge_axiom_v1 | 7 (cumulativeFlow)         | @       | @     | 0              | 100000         | #                     |
-| edge_axiom_v1 | 8 (pointFlow)              | @       | @     | 0              | 300            | #                     |
+| edge_axiom_v1 | 7 (cumulativeFlow)         | @       | @     | 0              | 72000          | #                     |
+| edge_axiom_v1 | 8 (pointFlow)              | @       | @     | 0              | 55             | #                     |
 | edge_axiom_v1 | 12 (status)                | @       | @     | 0              | 1              | #                     |
 | edge_axiom_v1 | 13 (pointCO2Concentration) | @       | @     | 0              | 4000           | #                     |
 | edge_axiom_v1 | 15 (uptime)                | @       | @     | 0              | #              | #                     |

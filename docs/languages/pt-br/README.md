@@ -177,7 +177,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 
 # 5. Especificações
 
-### Labels:
+### Legenda:
 * '*': Regra se aplica a qualquer valor
 * '@': Valor padrão para a consulta, cada operação (SELECT, SUMMARY, ...) pode ter seus próprios valores padrões
 * '#': Valor nulo, usa valores passados na consulta caso existam
@@ -189,8 +189,8 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 | edge_axiom_v1 | 1 (temperaturaPontual)      | @     | @       | 0                  | 60                 | #                    |
 | edge_axiom_v1 | 3 (umidadePontual)          | @     | @       | 0                  | 100                | #                    |
 | edge_axiom_v1 | 5 (concentracaoPontual)     | @     | @       | 0                  | 4000               | #                    |
-| edge_axiom_v1 | 7 (fluxoAcumulado)          | @     | @       | 0                  | 100000             | #                    |
-| edge_axiom_v1 | 8 (fluxoPontual)            | @     | @       | 0                  | 300                | #                    |
+| edge_axiom_v1 | 7 (fluxoAcumulado)          | @     | @       | 0                  | 72000              | #                    |
+| edge_axiom_v1 | 8 (fluxoPontual)            | @     | @       | 0                  | 55                 | #                    |
 | edge_axiom_v1 | 12 (estado)                 | @     | @       | 0                  | 1                  | #                    |
 | edge_axiom_v1 | 13 (concentracaoCO2Pontual) | @     | @       | 0                  | 4000               | #                    |
 | edge_axiom_v1 | 15 (uptime)                 | @     | @       | 0                  | #                  | #                    |
