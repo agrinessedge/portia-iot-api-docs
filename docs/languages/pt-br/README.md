@@ -207,3 +207,12 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |**Axioma**     |**Código de Dimensão** |**De** |**Para** |
 |:-------------:|:---------------------:|:-----:|:-------:|
 | time_axiom_v1 | *                     | @     | @       |
+
+# 6. Produtos
+
+|**Nome**       |**Cód. Produto**|**Versão de SW** |**Versão de HW** |
+|:-------------:|:--------------:|:---------------:|:---------------:|
+|               |1.0             |1.2.0            |1.0              |
+|               |1.0             |1.2.1            |1.0              |
+|               |1.0             |1.3.0            |1.0              |
+|               |                |1.4.0            |2.0              |
