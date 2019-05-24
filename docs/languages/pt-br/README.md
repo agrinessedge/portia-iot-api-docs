@@ -70,7 +70,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 
 |**Código** |**Rótulo/Símbolo** |**Descrição Resumida**                                      |**Categoria**                     |
 |:---------:|:-----------------:|:-----------------------------------------------------------|:--------------------------------:|
-|0          |unidades           |Medida sem unidade específica                               |Sem Especificação                 |
+|0          |unidades           |Medida sem unidade específica                               |Sem Categoria                     |
 |1          |ºC                 |Grau Celsius, medida de temperatura                         |Sistema Internacional de Unidades |
 |2          |%                  |Porcentagem, medida de razão com base 100                   |--                                |
 |3          |ppm                |Parte por milhão, medida de concentração com base 1.000.000 |--                                |
@@ -93,7 +93,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 
 |**Código**|**Rótulo / Símbolo** |**Sensor**                             |**Descrição Resumida**                               |**Categoria**     |
 |:--------:|:-------------------:|:-------------------------------------:|:----------------------------------------------------|:----------------:|
-|0         |--                   |--                                     |Sem especificação                                    |Sem Especificação |
+|0         |NotSpecified         |--                                     |Sem especificação                                    |Sem Categoria     |
 |1         |ProbeTU_v1           |[DHT22](https://goo.gl/RQ5Saz)         |Sensor de temperatura e umidade do ar                |Passivo           |
 |2         |ProbeAirQ_v1         |[MQ135](https://goo.gl/nPMY3j)         |Sensor de detecção de gases nocivos                  |Passivo           |
 |3         |HubHydro_v1          |PortiaVirtualSensors0                  |Hub Hydro da Agriness Edge                           |Complexo Ativo    |
@@ -129,7 +129,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 
 |**Código** |**Rótulo/Símbolo**     |**Descrição Resumida**                                |**Categoria**     |
 |:---------:|:---------------------:|:-----------------------------------------------------|:----------------:|
-|0          |--                     |Sem especificação                                     |Sem Especificação |
+|0          |dimensaoAnonima        |Dimensão genérica                                     |Sem Categoria     |
 |1          |temperaturaPontual     |Temperatura pontual                                   |Ambiente          |
 |2          |temperaturaMedia       |Temperatura média                                     |Ambiente          |
 |3          |umidadePontual         |Umidade pontual                                       |Ambiente          |
@@ -144,13 +144,13 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |12         |estado                 |Estado de algo                                        |Equipamento       |
 |13         |concentracaoCO2Pontual |Concentração de CO2 pontual                           |Ambiente          |
 |14         |numeroCiclos           |Quantidade de vezes que um dispositivo foi ligado     |Consumo           |
-|15         |uptime                 |Tempo de uptime                                       |Equipamento       |
+|15         |tempoAcumulado         |Uptime                                                |Equipamento       |
 |16         |rssi                   |Indicador de força de sinal recebido                  |Equipamento       |
 |17         |memoriaLivre           |Memória RAM livre                                     |Equipamento       |
 |18         |armazenamentoLivre     |Memória em disco livre                                |Equipamento       |
 |19         |cargaSistema           |Carga associada ao equipamento                        |Equipamento       |
 |20         |tamanhoArquivo         |Tamanho de um arquivo                                 |Equipamento       |
-|21         |tempo                  |Um momento específico no tempo                        |Equipamento       |
+|21         |tempoPontual           |Um momento específico no tempo                        |Equipamento       |
 |22         |perfil                 |Perfil com descrição do equipamento                   |Equipamento       |
 |23         |tensaoEletricaPontual  |Tensão elétrica pontual de alimentação                |Equipamento       |
 |24         |pressaoPontual         |Pressão pontual                                       |Ambiente          |

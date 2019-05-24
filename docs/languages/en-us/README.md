@@ -35,7 +35,7 @@ Portia API v3.2.1
 
 |**Code** |**Label / Symbol** |**Summarized Description**                                    |**Category**                  |
 |:-------:|:-----------------:|:-------------------------------------------------------------|:----------------------------:|
-|0        |units              |Measurement without a specific unit                           |Not Specified                 |
+|0        |units              |Measurement without a specific unit                           |No Category                   |
 |1        |ºC                 |Degree Celsius, temperature measurement                       |International System of Units |
 |2        |%                  |Percentage, ratio expressed as a fraction of 100              |--                            |
 |3        |ppm                |Parts-per-million, measurement of concentration               |--                            |
@@ -58,7 +58,7 @@ Portia API v3.2.1
 
 |**Code** |**Label / Symbol**  |**Sensor**                           |**Summarized Description**                              |**Category**    |
 |:-------:|:------------------:|:-----------------------------------:|:-------------------------------------------------------|:--------------:|
-|0        |--                  |--                                   |Not specified                                           |Not Specified   |
+|0        |NotSpecified        |--                                   |Not specified                                           |No Category     |
 |1        |ProbeTU_v1          |[DHT22](https://goo.gl/RQ5Saz)       |Temperature and air umidity probe                       |Passive         |
 |2        |ProbeAirQ_v1        |[MQ135](https://goo.gl/nPMY3j)       |Harmful gases detection probe                           |Passive         |
 |3        |HubHydro_v1         |PortiaVirtualSensors0                |Agriness Edge's Hydro hub                               |Active Complex  |
@@ -92,37 +92,37 @@ Portia API v3.2.1
 
 ## 2.3. Dimension Codes
 
-|**Code** |**Label / Symbol**    |**Summarized Description**                      |**Category**  |
-|:-------:|:--------------------:|:-----------------------------------------------|:------------:|
-|0        |--                    |Not specified                                   |Not Specified |
-|1        |pointTemperature      |Point temperature                               |Environment   |
-|2        |averageTemperature    |Average temperature                             |Environment   |
-|3        |pointUmidity          |Point umidity                                   |Environment   |
-|4        |averageUmidity        |Average umidity                                 |Environment   |
-|5        |pointConcentration    |Point harmful gases concentration               |Environment   |
-|6        |averageConcentration  |Average harmful gases concentration             |Environment   |
-|7        |cumulativeFlow        |Cumulative flow                                 |Consumption   |
-|8        |pointFlow             |Point flow                                      |Consumption   |
-|9        |pointWaterTemperature |Point water temperature (deprecated)            |Environment   |
-|10       |pointWeight           |Point weight                                    |Individual    |
-|11       |averageWeight         |Average weight                                  |Group         |
-|12       |status                |Status of something                             |Equipment     |
-|13       |pointCO2Concentration |Point CO2 gas concentration                     |Environment   |
-|14       |numberCycles          |Number of times that an equipment was turned on |Consumption   |
-|15       |uptime                |Device uptime                                   |Equipment     |
-|16       |rssi                  |Received signal strength indicator              |Equipment     |
-|17       |freeMemory            |Free RAM memory                                 |Equipment     |
-|18       |freeStorage           |Free storage                                    |Equipment     |
-|19       |systemLoad            |CPU load of a device                            |Equipment     |
-|20       |fileSize              |File size                                       |Equipment     |
-|21       |time                  |A specific moment in time                       |Equipment     |
-|22       |profile               |Profile of a device (deprecated)                |Equipment     |
-|23       |pointVoltage          |Voltage powering a device                       |Equipment     |
-|24       |pointPressure         |Point pressure                                  |Environment   |
-|25       |averagePressure       |Average pressure                                |Environment   |
-|26       |model                 |Description of ontology, software and hardware  |Equipment     |
-|27       |lotDay                |Current day of a lot                            |Lot           |
-|28       |averageVoltage        |Average voltage powering a device               |Equipment     |
+|**Code** |**Label / Symbol**       |**Summarized Description**                      |**Category**  |
+|:-------:|:-----------------------:|:-----------------------------------------------|:------------:|
+|0        |unamedDimension          |Generic dimension                               |No Category   |
+|1        |punctualTemperature      |Punctual temperature                            |Environment   |
+|2        |averageTemperature       |Average temperature                             |Environment   |
+|3        |punctualUmidity          |Punctual umidity                                |Environment   |
+|4        |averageUmidity           |Average umidity                                 |Environment   |
+|5        |punctualConcentration    |Punctual harmful gases concentration            |Environment   |
+|6        |averageConcentration     |Average harmful gases concentration             |Environment   |
+|7        |cumulativeFlow           |Cumulative flow                                 |Consumption   |
+|8        |punctualFlow             |Punctual flow                                   |Consumption   |
+|9        |punctualWaterTemperature |Punctual water temperature (deprecated)         |Environment   |
+|10       |punctualWeight           |Punctual weight                                 |Individual    |
+|11       |averageWeight            |Average weight                                  |Group         |
+|12       |status                   |Status of something                             |Equipment     |
+|13       |punctualCO2Concentration |Punctual CO2 gas concentration                  |Environment   |
+|14       |numberCycles             |Number of times that an equipment was turned on |Consumption   |
+|15       |cumulativeTime           |Uptime                                          |Equipment     |
+|16       |rssi                     |Received signal strength indicator              |Equipment     |
+|17       |freeMemory               |Free RAM memory                                 |Equipment     |
+|18       |freeStorage              |Free storage                                    |Equipment     |
+|19       |systemLoad               |CPU load of a device                            |Equipment     |
+|20       |fileSize                 |File size                                       |Equipment     |
+|21       |punctualTime             |A specific moment in time                       |Equipment     |
+|22       |profile                  |Profile of a device (deprecated)                |Equipment     |
+|23       |punctualVoltage          |Voltage powering a device                       |Equipment     |
+|24       |punctualPressure         |Punctual pressure                               |Environment   |
+|25       |averagePressure          |Average pressure                                |Environment   |
+|26       |model                    |Description of ontology, software and hardware  |Equipment     |
+|27       |lotDay                   |Current day of a lot                            |Lot           |
+|28       |averageVoltage           |Average voltage powering a device               |Equipment     |
 
 # 3. Phases
 
