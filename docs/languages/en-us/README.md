@@ -89,6 +89,7 @@ Portia API v3.2.1
 |28       |HubAmbientte        |--                                   |Inobram's Ambientte hub                                 |Active Complex  |
 |29       |HubBluetooth_v1     |PortiaVirtualSensors0                |Agriness Edge's Bluetooth hub                           |Active Complex  |
 |30       |ProbeTruTestS2      |[S2 TRU-TEST](https://goo.gl/piukBW) |S2 Tru-Test's weight scale with bluetooth communication |Active Complex  |
+|31       |HubLogical_v0       |PortiaVirtualSensors0                |Agriness Edge's Hub Logical version 0                   |Active Complex  |
 
 ## 2.3. Dimension Codes
 
