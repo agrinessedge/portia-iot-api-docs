@@ -124,6 +124,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |28        |HubAmbientte         |--                                     |Hub Ambientte da Inobram                             |Complexo Ativo    |
 |29        |HubBluetooth_v1      |PortiaVirtualSensors0                  |Hub Bluetooth da Agriness Edge                       |Complexo Ativo    |
 |30        |ProbeTruTestS2       |[S2 TRU-TEST](https://goo.gl/piukBW)   |Balança S2 Tru-Test com comunicação via bluetooth    |Complexo Ativo    |
+|31        |HubLogical_v0        |PortiaVirtualSensors0                  |Hub Lógico versão 0 da Agriness Edge                 |Complexo Ativo    |
 
 ## 2.3. Códigos de Dimensões
 
