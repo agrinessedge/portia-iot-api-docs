@@ -98,8 +98,8 @@ Portia API v3.2.1
 |0        |unamedDimension          |Generic dimension                               |No Category   |
 |1        |punctualTemperature      |Punctual temperature                            |Environment   |
 |2        |averageTemperature       |Average temperature                             |Environment   |
-|3        |punctualUmidity          |Punctual umidity                                |Environment   |
-|4        |averageUmidity           |Average umidity                                 |Environment   |
+|3        |punctualHumidity         |Punctual humidity                               |Environment   |
+|4        |averageHumidity          |Average humidity                                |Environment   |
 |5        |punctualConcentration    |Punctual harmful gases concentration            |Environment   |
 |6        |averageConcentration     |Average harmful gases concentration             |Environment   |
 |7        |cumulativeFlow           |Cumulative flow                                 |Consumption   |
