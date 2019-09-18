@@ -125,6 +125,9 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |29        |HubBluetooth_v1      |PortiaVirtualSensors0                  |Hub Bluetooth da Agriness Edge                       |Complexo Ativo    |
 |30        |ProbeTruTestS2       |[S2 TRU-TEST](https://goo.gl/piukBW)   |Balança S2 Tru-Test com comunicação via bluetooth    |Complexo Ativo    |
 |31        |HubLogical_v0        |PortiaVirtualSensors0                  |Hub Lógico versão 0 da Agriness Edge                 |Complexo Ativo    |
+|32        |SmaaiInlet           |--                                     |Placa de relês para *inlets* da Inobram              |Passivo           |
+|33        |SmaaiCurtain         |--                                     |Placa de relês para cortinas da Inobram              |Passivo           |
+|34        |ProbeTruTestS3       |--                                     |Balança S3 Tru-Test com comunicação via bluetooth    |Complexo Ativo    |
 
 ## 2.3. Códigos de Dimensões
 
