@@ -68,27 +68,28 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 
 ### 2.1. Códigos de Unidades de Medida
 
-|**Código** |**Rótulo/Símbolo** |**Descrição Resumida**                                      |**Categoria**                     |
-|:---------:|:-----------------:|:-----------------------------------------------------------|:--------------------------------:|
-|0          |unidades           |Medida sem unidade específica                               |Sem Categoria                     |
-|1          |ºC                 |Grau Celsius, medida de temperatura                         |Sistema Internacional de Unidades |
-|2          |%                  |Porcentagem, medida de razão com base 100                   |--                                |
-|3          |ppm                |Parte por milhão, medida de concentração com base 1.000.000 |--                                |
-|4          |L                  |Litro, medida de volume                                     |Sistema Internacional de Unidades |
-|5          |g                  |Grama, medida de massa                                      |Sistema Internacional de Unidades |
-|6          |s                  |Segundo, medida de tempo                                    |Sistema Internacional de Unidades |
-|7          |L/min              |Litros por minuto, medida de volume (capacidade) por tempo  |Sistema Internacional de Unidades |
-|8          |dBm                |Decibel-milliwatts, nível de potência em decibéis           |--                                |
-|9          |B                  |Byte, medida computacional                                  |--                                |
-|10         |desvio             |Desvio em relação a algum valor base                        |--                                |
-|11         |JSONObject         |Objeto com composição de valores                            |--                                |
-|12         |ms                 |Milissegundo, medida de tempo                               |Sistema Internacional de Unidades |
-|13         |V                  |Tensão elétrica, diferença de potencial elétrico            |Sistema Internacional de Unidades |
-|14         |Pa                 |Pascal, unidade padrão de pressão e tensão                  |Sistema Internacional de Unidades |
-|15         |kg                 |Kilograma, medida de massa                                  |Sistema Internacional de Unidades |
-|16         |dias               |Dia, medida de tempo                                        |--                                |
-|17         |mV                 |Milivolts, medida de diferença de potencial elétrico        |--                                |
-|18         |gal                |Galões, unidade de medida de volume de líquidos             |Unidade Inglesa                   |
+|**Código** |**Rótulo/Símbolo** |**Descrição Resumida**                                      |**Categoria**                        |
+|:---------:|:-----------------:|:-----------------------------------------------------------|:-----------------------------------:|
+|0          |unidades           |Medida sem unidade específica                               |Sem Categoria                        |
+|1          |°C                 |Grau Celsius, medida de temperatura                         |Sistema Internacional de Unidades    |
+|2          |%                  |Porcentagem, medida de razão com base 100                   |Sem Categoria                        |
+|3          |ppm                |Parte por milhão, medida de concentração com base 1.000.000 |Sem Categoria                        |
+|4          |L                  |Litro, medida de volume                                     |Sistema Internacional de Unidades    |
+|5          |g                  |Grama, medida de massa                                      |Sistema Internacional de Unidades    |
+|6          |s                  |Segundo, medida de tempo                                    |Sistema Internacional de Unidades    |
+|7          |L/min              |Litros por minuto, medida de volume (capacidade) por tempo  |Sistema Internacional de Unidades    |
+|8          |dBm                |Decibel-milliwatts, nível de potência em decibéis           |Sistema Internacional de Unidades    |
+|9          |B                  |Byte, medida computacional                                  |Comissão Eletrotécnica Internacional |
+|10         |desvio             |Desvio em relação a algum valor base                        |Sem Categoria                        |
+|11         |JSONObject         |Objeto com composição de valores                            |Sem Categoria                        |
+|12         |ms                 |Milissegundo, medida de tempo                               |Sistema Internacional de Unidades    |
+|13         |V                  |Tensão elétrica, diferença de potencial elétrico            |Sistema Internacional de Unidades    |
+|14         |Pa                 |Pascal, unidade padrão de pressão e tensão                  |Sistema Internacional de Unidades    |
+|15         |kg                 |Kilograma, medida de massa                                  |Sistema Internacional de Unidades    |
+|16         |dias               |Dia, medida de tempo                                        |Sistema Internacional de Unidades    |
+|17         |mV                 |Milivolts, medida de diferença de potencial elétrico        |Sistema Internacional de Unidades    |
+|18         |gal                |Galões, unidade de medida de volume de líquidos             |Sistema Imperial Britânico           |
+|19         |°F                 |Fahrenheit, medida de temperatura                           |Sistema Imperial Britânico           |
 
 ### 2.2. Códigos de Coisas / Dispositivos
 

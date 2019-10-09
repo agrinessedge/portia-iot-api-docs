@@ -33,27 +33,28 @@ Portia API v3.2.1
 
 ### 2.1. Measurement Unit Codes
 
-|**Code** |**Label / Symbol** |**Summarized Description**                                    |**Category**                  |
-|:-------:|:-----------------:|:-------------------------------------------------------------|:----------------------------:|
-|0        |units              |Measurement without a specific unit                           |No Category                   |
-|1        |ºC                 |Degree Celsius, temperature measurement                       |International System of Units |
-|2        |%                  |Percentage, ratio expressed as a fraction of 100              |--                            |
-|3        |ppm                |Parts-per-million, measurement of concentration               |--                            |
-|4        |L                  |Liter, volume measurement                                     |International System of Units |
-|5        |g                  |Gram, mass measurement                                        |International System of Units |
-|6        |s                  |Second, time measurement                                      |International System of Units |
-|7        |L/min              |Liters per minute, measurement of volume per time             |International System of Units |
-|8        |dBm                |Decibel-milliwatts, measurement of power ratio by milliwatt   |--                            |
-|9        |B                  |Byte, computational measurement                               |--                            |
-|10       |deviation          |Deviation of a base value                                     |--                            |
-|11       |JSONObject         |Object that is a composition of values                        |--                            |
-|12       |ms                 |Milliseconds, time measurement                                |International System of Units |
-|13       |V                  |Voltage, measurement of an electric potential difference      |International System of Units |
-|14       |Pa                 |Pascal, measurement of pressure and stress                    |International System of Units |
-|15       |kg                 |Kilogram, measurement of mass                                 |International System of Units |
-|16       |days               |Day, time measurement                                         |--                            |
-|17       |mV                 |Millivoltage, measurement of an electric potential difference |--                            |
-|18       |gal                |Gallon, liquid volume measurement                             |British Imperial System       |
+|**Code** |**Label / Symbol** |**Summarized Description**                                    |**Category**                              |
+|:-------:|:-----------------:|:-------------------------------------------------------------|:----------------------------------------:|
+|0        |units              |Measurement without a specific unit                           |No Category                               |
+|1        |°C                 |Degree Celsius, temperature measurement                       |International System of Units             |
+|2        |%                  |Percentage, ratio expressed as a fraction of 100              |No Category                               |
+|3        |ppm                |Parts-per-million, measurement of concentration               |No Category                               |
+|4        |L                  |Liter, volume measurement                                     |International System of Units             |
+|5        |g                  |Gram, mass measurement                                        |International System of Units             |
+|6        |s                  |Second, time measurement                                      |International System of Units             |
+|7        |L/min              |Liters per minute, measurement of volume per time             |International System of Units             |
+|8        |dBm                |Decibel-milliwatts, measurement of power ratio by milliwatt   |International System of Units             |
+|9        |B                  |Byte, computational measurement                               |International Electrotechnical Commission |
+|10       |deviation          |Deviation of a base value                                     |No Category                               |
+|11       |JSONObject         |Object that is a composition of values                        |No Category                               |
+|12       |ms                 |Milliseconds, time measurement                                |International System of Units             |
+|13       |V                  |Voltage, measurement of an electric potential difference      |International System of Units             |
+|14       |Pa                 |Pascal, measurement of pressure and stress                    |International System of Units             |
+|15       |kg                 |Kilogram, measurement of mass                                 |International System of Units             |
+|16       |days               |Day, time measurement                                         |International System of Units             |
+|17       |mV                 |Millivoltage, measurement of an electric potential difference |International System of Units             |
+|18       |gal                |Gallon, liquid volume measurement                             |British Imperial System                   |
+|19       |°F                 |Degree Fahrenheit, temperature measurement                    |British Imperial System                   |
 
 ### 2.2. Thing / Device Codes
 
