@@ -53,6 +53,7 @@ Portia API v3.2.1
 |15       |kg                 |Kilogram, measurement of mass                                 |International System of Units |
 |16       |days               |Day, time measurement                                         |--                            |
 |17       |mV                 |Millivoltage, measurement of an electric potential difference |--                            |
+|18       |gal                |Gallon, liquid volume measurement                             |British Imperial System       |
 
 ### 2.2. Thing / Device Codes
 

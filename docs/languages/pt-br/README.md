@@ -88,6 +88,7 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |15         |kg                 |Kilograma, medida de massa                                  |Sistema Internacional de Unidades |
 |16         |dias               |Dia, medida de tempo                                        |--                                |
 |17         |mV                 |Milivolts, medida de diferença de potencial elétrico        |--                                |
+|18         |gal                |Galões, unidade de medida de volume de líquidos             |Unidade Inglesa                   |
 
 ### 2.2. Códigos de Coisas / Dispositivos
 
