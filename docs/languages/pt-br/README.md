@@ -128,6 +128,11 @@ Todas a definições deste documento estão associadas aos seguintes namespaces:
 |32        |SmaaiInlet           |--                                     |Placa de relês para *inlets* da Inobram              |Passivo           |
 |33        |SmaaiCurtain         |--                                     |Placa de relês para cortinas da Inobram              |Passivo           |
 |34        |ProbeTruTestS3       |--                                     |Balança S3 Tru-Test com comunicação via bluetooth    |Complexo Ativo    |
+|35        |ProbeGsiT            |--                                     |Sensor de temperatura da GSI                         |Passivo           |
+|36        |ProbeGsiU            |--                                     |Sensor de umidade do ar da GSI                       |Passivo           |
+|37        |ProbeGsiH2O          |--                                     |Sensor de consumo de água da GSI                     |Passivo           |
+|38        |GsiPlatformScale     |--                                     |Sensor para pesagem de aves da GSI                   |Passivo           |
+|39        |GsiExhaustor         |--                                     |Placa de relês para exaustores da GSI                |Passivo           |
 
 ## 2.3. Códigos de Dimensões
 

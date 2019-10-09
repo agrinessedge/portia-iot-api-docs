@@ -59,7 +59,7 @@ Portia API v3.2.1
 |**Code** |**Label / Symbol**  |**Sensor**                           |**Summarized Description**                              |**Category**    |
 |:-------:|:------------------:|:-----------------------------------:|:-------------------------------------------------------|:--------------:|
 |0        |NotSpecified        |--                                   |Not specified                                           |No Category     |
-|1        |ProbeTU_v1          |[DHT22](https://goo.gl/RQ5Saz)       |Temperature and air umidity probe                       |Passive         |
+|1        |ProbeTU_v1          |[DHT22](https://goo.gl/RQ5Saz)       |Temperature and air humidity probe                      |Passive         |
 |2        |ProbeAirQ_v1        |[MQ135](https://goo.gl/nPMY3j)       |Harmful gases detection probe                           |Passive         |
 |3        |HubHydro_v1         |PortiaVirtualSensors0                |Agriness Edge's Hydro hub                               |Active Complex  |
 |4        |ProbeLoadCell_v1    |[HX711](http://goo.gl/DLHKmD)        |Charge cell amplifier                                   |Active          | 
@@ -74,7 +74,7 @@ Portia API v3.2.1
 |13       |HubSmaai4           |--                                   |Inobram's Smaai 4 hub                                   |Passive Complex |
 |14       |Gateway_v1          |--                                   |Agriness Edge's Gateway version 1                       |Active Complex  |
 |15       |ProbeSmaaiT         |[Probe T](https://bit.ly/2JDKwRQ)    |Inobram's temperature probe                             |Passive         |
-|16       |ProbeSmaaiTU        |[Probe TU](https://bit.ly/2JDKwRQ)   |Inobram's temperature and air umidity probe             |Passive         |
+|16       |ProbeSmaaiTU        |[Probe TU](https://bit.ly/2JDKwRQ)   |Inobram's temperature and air humidity probe            |Passive         |
 |17       |SmaaiExhaustor      |[Exhaustor](https://bit.ly/2HONoWq)  |Inobram's exhaustor relay board                         |Passive         |
 |18       |SmaaiNebulizer      |[Nebulizer](https://bit.ly/2HONoWq)  |Inobram's nebulizer relay board                         |Passive         |
 |19       |SmaaiHeater         |[Heater](https://bit.ly/2HONoWq)     |Inobram's heater relay board                            |Passive         |
@@ -82,7 +82,7 @@ Portia API v3.2.1
 |21       |ProbeSmaaiPE        |[Probe PE](https://bit.ly/2JDKwRQ)   |Inobram's static pressure probe                         |Passive         |
 |22       |ProbeSmaaiH2O       |[Probe H2O](https://bit.ly/2JDKwRQ)  |Inobram's water consumption probe                       |Passive         |
 |23       |ProbeSmaaiCO2       |[Probe CO2](https://bit.ly/2JDKwRQ)  |Inobram's CO2 concentration probe                       |Passive         |
-|24       |ProbeSmaaiU         |[Probe U](https://bit.ly/2JDKwRQ)    |Inobram's air umidity probe                             |Passive         |
+|24       |ProbeSmaaiU         |[Probe U](https://bit.ly/2JDKwRQ)    |Inobram's air humidity probe                            |Passive         |
 |25       |SmaaiSmartScale     |[SmartScale](https://bit.ly/2I2Ip4I) |Inobram's hen weight scale probe                        |Passive         |
 |26       |SmaaiSiloWeight     |[SiloWeight](https://bit.ly/2M2PMvb) |Inobram's silo weight scale probe                       |Passive         |
 |27       |VirtualGateway_v0   |--                                   |Agriness Edge's Virtual Gateway version 0               |Active Complex  |
@@ -93,6 +93,11 @@ Portia API v3.2.1
 |32       |SmaaiInlet          |--                                   |Inobram's inlet relay board                             |Passive         |
 |33       |SmaaiCurtain        |--                                   |Inobram's curtain relay board                           |Passive         |
 |34       |ProbeTruTestS3      |--                                   |S3 Tru-Test's weight scale with bluetooth communication |Active Complex  |
+|35       |ProbeGsiT           |--                                   |GSI's temperature probe                                 |Passive         |
+|36       |ProbeGsiU           |--                                   |GSI's air humidity probe                                |Passive         |
+|37       |ProbeGsiH2O         |--                                   |GSI's water consumption probe                           |Passive         |
+|38       |GsiPlatformScale    |--                                   |GSI's hen weight scale probe                            |Passive         |
+|39       |GsiExhaustor        |--                                   |GSI's exhaustor relay board                             |Passive         |
 
 ## 2.3. Dimension Codes
 
